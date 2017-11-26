@@ -1,0 +1,9 @@
+{% if d.data %}
+    <ul>
+    {% for t in d.data %}
+        <li><a href="/tests/{{t.id}}/">{{ t.theme }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No tests.</p>
+{% endif %}

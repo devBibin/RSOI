@@ -1,0 +1,11 @@
+<form action="/tests/{{q.test_id}}/questions/{{q.id}}" method="post" id="form{{forloop.counter}}">
+{% csrf_token %}
+<br>
+{{q.question_text}}
+<br>
+{% for c in q.simple_choices %}
+    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ c.id }}" />
+    <label for="choice{{ forloop.counter }}">{{ c.text }}</label><br />
+{% endfor %}
+<input type="submit" value="Confirm!" />
+</form>

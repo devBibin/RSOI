@@ -1,0 +1,9 @@
+{% if d.questions %}
+    <ul>
+    {% for q in d.questions %}
+        <li><a href="/tests/{{d.id}}/questions/{{q.id}}">{{ q.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Questions.</p>
+{% endif %}
