@@ -13,7 +13,7 @@ def get_tests(request):
 		page = 1
 		size = 10
 	else:
-		page = int(request.GET.get("size"))
+		page = int(request.GET.get("page"))
 		size = int(request.GET.get("size"))
 
 	tests = Test.objects.all()

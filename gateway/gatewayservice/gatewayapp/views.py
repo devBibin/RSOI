@@ -48,6 +48,6 @@ def authenticate_user(request):
 		login(request, user)
 		return HttpResponse("Authorized as john")
 	else:
-		return HttpResponse("Пошел ты нахуй со своим футболом")
+		return HttpResponse("B")
 	#context = {'d': r.json()}
 	#return render(request, 'gatewayapp/test_list.html', context)
