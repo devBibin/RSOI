@@ -1,3 +1,5 @@
+{% extends "gatewayapp/base.html" %}
+{% block content %}
 {% if d.data %}
     <ul>
     {% for t in d.data %}
@@ -7,3 +9,4 @@
 {% else %}
     <p>No tests.</p>
 {% endif %}
+{% endblock %}

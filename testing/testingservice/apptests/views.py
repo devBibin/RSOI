@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
+from django.http import HttpResponse
 from django.http import JsonResponse
 from models import *
 import json
@@ -20,7 +21,6 @@ def get_tests(request):
 	p = Paginator(tests, size)
 	response_data = {}
 	if (page > max(p.page_range)):
-		print "HERE",page,max(p.page_range)
 		page = max(p.page_range)
 	response_data['pages_count'] = p.count
 	response_data["data"] = []
@@ -29,13 +29,13 @@ def get_tests(request):
 		item["theme"] = el.test_theme
 		item["id"] = el.pk
 		response_data['data'].append(item)
-	print response_data
 	return JsonResponse(response_data)
 
 
 def get_test_by_id(request, test_id):
 	test = Test.objects.get(id=test_id)
 	response_data = {}
+	response_data["id"] = test.pk
 	response_data["theme"] = test.test_theme
 	response_data["intro"] = test.test_introduction
 	response_data["author"] = str(test.test_to_author)
@@ -43,7 +43,6 @@ def get_test_by_id(request, test_id):
 
 def get_questions_by_test(request, test_id):
 	questions = QuestionBody.objects.filter(question_to_test = test_id)
-	print questions
 	response_data = {}
 	i = 0
 	response_data["id"] = test_id
@@ -82,4 +81,9 @@ def get_question_by_id(request, test_id, question_id):
 		c_item["is_right"] = c.choice_right
 		response_data["simple_choices"].append(c_item)	
 	return JsonResponse(response_data)
+
+def get_correct_answer(request, test_id, question_id):
+	q = QuestionBody.objects.filter(pk = question_id)[0]
+	a = SimpleChoice.objects.filter(choice_to_question = q.pk, choice_right = True)[0].pk
+	return HttpResponse(a)
 

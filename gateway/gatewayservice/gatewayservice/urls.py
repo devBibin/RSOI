@@ -18,6 +18,7 @@ from django.contrib import admin
 from gatewayapp import views as gv
 from gatewayapp import urls
 
+
 include('gatewayapp.urls', namespace="gatewayapp")
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -28,4 +29,6 @@ urlpatterns = [
     url(r'^users/$', gv.get_users),
     url(r'^users/auth/$', gv.authenticate_user),
     url(r'^accounts/login/$', gv.authenticate_user),
+    url(r'^users/billing/$', gv.billing_user),
+    url(r'^creative/$', gv.creative_tasks),
 ]

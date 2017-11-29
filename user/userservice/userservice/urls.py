@@ -20,4 +20,5 @@ from userapp import views as gv
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^users/$', gv.get_users),
+    url(r'^users/alter_group/$', gv.alter_user_group),
 ]

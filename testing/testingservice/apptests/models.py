@@ -58,8 +58,6 @@ class SimpleChoice(models.Model):
     choice_right = models.BooleanField()
     choice_to_question = models.ForeignKey(QuestionBody, on_delete = models.CASCADE)
     
-    def __unicode__(self):
-        return self.choice_to_question.question_text
 
 
 class TableTask(models.Model):

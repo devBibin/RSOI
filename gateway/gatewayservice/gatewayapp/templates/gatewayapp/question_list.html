@@ -1,9 +1,12 @@
+{% extends "gatewayapp/base.html" %}
+{% block content %}
 {% if d.questions %}
     <ul>
     {% for q in d.questions %}
-        <li><a href="/tests/{{d.id}}/questions/{{q.id}}">{{ q.question_text }}</a></li>
+        <li><a href="/tests/{{d.id}}/questions/{{q.id}}">{{ q.question_text}}{{ q.replied}}</a></li>
     {% endfor %}
     </ul>
 {% else %}
     <p>No Questions.</p>
 {% endif %}
+{% endblock %}

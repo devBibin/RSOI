@@ -1,0 +1,27 @@
+[29/Nov/2017 00:08:03] INFO [gatewayapp.views:21] User got list of tests
+[29/Nov/2017 00:10:03] INFO [gatewayapp.views:28] User john got list of tests
+[29/Nov/2017 00:18:55] INFO [gatewayapp.views:21] User john got list of tests
+[29/Nov/2017 00:19:28] INFO [gatewayapp.views:21] User john got list of tests
+[29/Nov/2017 00:19:31] INFO [gatewayapp.views:35] User john got list of questions in test1
+[29/Nov/2017 00:19:32] INFO [gatewayapp.views:61] User john got questions1 in test1
+[29/Nov/2017 00:19:35] INFO [gatewayapp.views:61] User john got questions1 in test1
+[29/Nov/2017 00:19:36] INFO [gatewayapp.views:61] User john got questions1 in test1
+[29/Nov/2017 00:19:38] INFO [gatewayapp.views:35] User john got list of questions in test1
+[29/Nov/2017 13:59:16] INFO [gatewayapp.views:21] User  got list of tests
+[29/Nov/2017 13:59:16] INFO [gatewayapp.views:21] User  got list of tests
+[29/Nov/2017 13:59:16] INFO [gatewayapp.views:21] User  got list of tests
+[29/Nov/2017 13:59:16] INFO [gatewayapp.views:21] User  got list of tests
+[29/Nov/2017 14:04:19] INFO [gatewayapp.views:35] User john got list of questions in test1
+[29/Nov/2017 14:04:20] INFO [gatewayapp.views:21] User john got list of tests
+[29/Nov/2017 14:04:33] INFO [gatewayapp.views:35] User john got list of questions in test1
+[29/Nov/2017 14:04:36] INFO [gatewayapp.views:58] User john got questions2 in test1
+[29/Nov/2017 14:04:38] INFO [gatewayapp.views:58] User john got questions2 in test1
+[29/Nov/2017 14:05:08] INFO [gatewayapp.views:58] User john got questions2 in test1
+[29/Nov/2017 14:05:11] INFO [gatewayapp.views:58] User john got questions2 in test1
+[29/Nov/2017 14:05:13] INFO [gatewayapp.views:58] User john got questions2 in test1
+[29/Nov/2017 14:05:16] INFO [gatewayapp.views:58] User john got questions2 in test1
+[29/Nov/2017 14:05:17] INFO [gatewayapp.views:58] User john got questions2 in test1
+[29/Nov/2017 14:05:20] INFO [gatewayapp.views:35] User john got list of questions in test1
+[29/Nov/2017 14:05:50] INFO [gatewayapp.views:90] User john visited payment page
+[29/Nov/2017 14:05:53] INFO [gatewayapp.views:94] User john created payment
+[29/Nov/2017 14:05:55] INFO [gatewayapp.views:90] User john visited payment page

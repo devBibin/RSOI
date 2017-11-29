@@ -14,7 +14,7 @@ class CreativeTaskAnswer(models.Model):
 	user_id = models.IntegerField()
 	task_id = models.IntegerField()
 	status = models.CharField(max_length=20, default ="processing")
-	rate = models.IntegerField()
+	rate = models.IntegerField(default=0)
 	remark = models.CharField(max_length =1500)
 
 		
