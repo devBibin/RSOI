@@ -23,8 +23,7 @@ def save_answer_info(request):
 
 def get_stats_by_questions(request, user_id):
 	q_list_ind = request.GET.getlist("question")
-
-	stat = TestAnswer.objects.filter(pk__in = q_list_ind, user_id = user_id)
+	stat = TestAnswer.objects.filter(question_id__in = q_list_ind)
 	
 	r = {}
 	r["replied"] = []

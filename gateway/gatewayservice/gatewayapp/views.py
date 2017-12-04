@@ -50,7 +50,6 @@ def get_questions_by_test(request, test_id):
 			questions[i]["replied"] = "-"
 	rt["questions"] = questions
 	context = {'d': rt}
-
 	return render(request, 'gatewayapp/question_list.html', context)
 
 @login_required

@@ -11,7 +11,6 @@ from django.http import HttpResponse
 
 
 def get_users(request):
-	print "JOPA"
 	users = User.objects.all()
 	response_data = {}
 	response_data["users"] = []

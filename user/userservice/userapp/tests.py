@@ -23,7 +23,6 @@ class ViewTest(TestCase):
 	def test_view_alter_user_group(self):
 		response = self.client.get("/users/")
 		json_data = json.loads(response.content)
-		print json_data
 		response = self.client.post("/users/alter_group/",data={'u_id' : 1})
 		u = User.objects.filter(username = "Valentin")[0]
 		u_groups = list(u.groups.values_list('name',flat=True))

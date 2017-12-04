@@ -25,3 +25,167 @@
 [29/Nov/2017 14:05:50] INFO [gatewayapp.views:90] User john visited payment page
 [29/Nov/2017 14:05:53] INFO [gatewayapp.views:94] User john created payment
 [29/Nov/2017 14:05:55] INFO [gatewayapp.views:90] User john visited payment page
+[30/Nov/2017 19:24:37] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:24:48] INFO [gatewayapp.views:90] User john visited payment page
+[30/Nov/2017 19:24:53] INFO [gatewayapp.views:94] User john created payment
+[30/Nov/2017 19:25:28] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:25:30] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:25:34] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:25:39] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:25:43] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:25:48] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:26:13] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:26:19] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:26:21] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:26:23] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:26:26] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:26:28] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:26:30] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:26:32] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:35:19] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:35:20] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:35:27] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:35:27] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:35:28] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:35:39] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:35:59] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:36:01] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:36:01] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:37:36] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:38:46] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:39:00] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:39:23] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:40:03] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:40:23] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:40:28] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:40:31] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:45:15] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:45:19] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:45:26] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:46:08] INFO [gatewayapp.views:35] User john got list of questions in test4
+[30/Nov/2017 19:46:15] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:46:18] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:46:39] INFO [gatewayapp.views:58] User john got questions6 in test1
+[30/Nov/2017 19:46:43] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:46:46] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:46:48] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:46:50] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:46:51] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:46:52] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:46:53] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:47:03] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:47:03] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:47:03] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:47:47] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:47:51] INFO [gatewayapp.views:21] User john got list of tests
+[30/Nov/2017 19:47:54] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:47:55] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:47:58] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:48:06] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:48:09] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:48:12] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:48:14] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:48:16] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:48:17] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:48:20] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:48:21] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:48:23] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:48:24] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:48:24] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:48:24] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:48:24] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:48:24] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:48:25] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:49:37] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:49:46] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:49:52] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:49:55] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:51:50] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:51:52] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:51:54] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:53:18] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:53:21] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:53:29] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:53:33] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:53:43] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:53:56] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:54:07] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:54:10] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:54:19] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:54:23] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:55:22] INFO [gatewayapp.views:58] User john got questions4 in test1
+[30/Nov/2017 19:55:24] INFO [gatewayapp.views:58] User john got questions3 in test1
+[30/Nov/2017 19:55:26] INFO [gatewayapp.views:58] User john got questions3 in test1
+[30/Nov/2017 19:55:28] INFO [gatewayapp.views:58] User john got questions3 in test1
+[30/Nov/2017 19:55:30] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:55:31] INFO [gatewayapp.views:58] User john got questions5 in test1
+[30/Nov/2017 19:55:33] INFO [gatewayapp.views:58] User john got questions5 in test1
+[30/Nov/2017 19:55:35] INFO [gatewayapp.views:58] User john got questions5 in test1
+[30/Nov/2017 19:55:36] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:55:38] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:55:41] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:55:44] INFO [gatewayapp.views:58] User john got questions1 in test1
+[30/Nov/2017 19:55:44] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:55:45] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:55:45] INFO [gatewayapp.views:35] User john got list of questions in test1
+[30/Nov/2017 19:56:12] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:10:38] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:10:56] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:11:00] INFO [gatewayapp.views:58] User john got questions4 in test1
+[01/Dec/2017 16:11:03] INFO [gatewayapp.views:58] User john got questions4 in test1
+[01/Dec/2017 16:11:04] INFO [gatewayapp.views:58] User john got questions4 in test1
+[01/Dec/2017 16:11:06] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:11:07] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:11:07] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:12:34] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:12:57] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:13:21] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:13:49] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:15:13] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:15:39] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:02] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:25] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:26] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:26] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:27] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:27] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:27] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:27] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:32] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:32] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:32] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:45] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:53] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:53] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:16:54] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:17:53] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 16:25:40] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 19:48:32] INFO [gatewayapp.views:58] User john got questions1 in test1
+[01/Dec/2017 19:48:33] INFO [gatewayapp.views:35] User john got list of questions in test1
+[01/Dec/2017 19:55:13] INFO [gatewayapp.views:35] User john got list of questions in test1
+[02/Dec/2017 17:35:29] INFO [gatewayapp.views:35] User john got list of questions in test1
+[02/Dec/2017 17:35:31] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:37:55] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:42:59] INFO [gatewayapp.views:35] User john got list of questions in test2
+[02/Dec/2017 17:43:52] INFO [gatewayapp.views:35] User john got list of questions in test2
+[02/Dec/2017 17:43:58] INFO [gatewayapp.views:35] User john got list of questions in test1
+[02/Dec/2017 17:44:47] INFO [gatewayapp.views:35] User john got list of questions in test1
+[02/Dec/2017 17:47:46] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:47:51] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:47:58] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:48:02] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:48:06] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:48:08] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:48:22] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:48:38] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:48:47] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:48:56] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:49:14] INFO [gatewayapp.views:21] User john got list of tests
+[02/Dec/2017 17:51:41] INFO [gatewayapp.views:35] User john got list of questions in test1
+[04/Dec/2017 14:07:33] INFO [gatewayapp.views:35] User john got list of questions in test1
+[04/Dec/2017 14:07:35] INFO [gatewayapp.views:21] User john got list of tests
+[04/Dec/2017 14:07:39] INFO [gatewayapp.views:35] User john got list of questions in test1
+[04/Dec/2017 14:08:22] INFO [gatewayapp.views:35] User john got list of questions in test1
+[04/Dec/2017 14:08:34] INFO [gatewayapp.views:57] User john got questions5 in test1
+[04/Dec/2017 14:08:37] INFO [gatewayapp.views:57] User john got questions4 in test1
+[04/Dec/2017 14:59:55] INFO [gatewayapp.views:21] User  got list of tests

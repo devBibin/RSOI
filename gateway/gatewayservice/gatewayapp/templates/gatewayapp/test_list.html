@@ -1,6 +1,7 @@
 {% extends "gatewayapp/base.html" %}
 {% block content %}
 {% if d.data %}
+{{d.pages_count}}
     <ul>
     {% for t in d.data %}
         <li><a href="/tests/{{t.id}}/">{{ t.theme }}</a></li>

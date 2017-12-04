@@ -22,7 +22,7 @@ def get_tests(request):
 	response_data = {}
 	if (page > max(p.page_range)):
 		page = max(p.page_range)
-	response_data['pages_count'] = p.count
+	response_data['pages_count'] = p.num_pages
 	response_data["data"] = []
 	for el in p.page(page).object_list:
 		item = {}
@@ -34,6 +34,8 @@ def get_tests(request):
 
 def get_test_by_id(request, test_id):
 	test = Test.objects.get(id=test_id)
+	if (len(test) == 0):
+		return HttpResponse(404)
 	response_data = {}
 	response_data["id"] = test.pk
 	response_data["theme"] = test.test_theme

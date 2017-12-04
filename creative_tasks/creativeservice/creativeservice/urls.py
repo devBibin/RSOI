@@ -20,5 +20,5 @@ from creativeapp import views as gv
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^creative/add', gv.save_creative_task)
+    url(r'^creative/add/', gv.save_creative_task)
 ]
