@@ -34,8 +34,6 @@ def get_tests(request):
 
 def get_test_by_id(request, test_id):
 	test = Test.objects.get(id=test_id)
-	if (len(test) == 0):
-		return HttpResponse(404)
 	response_data = {}
 	response_data["id"] = test.pk
 	response_data["theme"] = test.test_theme
