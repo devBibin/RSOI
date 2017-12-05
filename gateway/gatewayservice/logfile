@@ -189,3 +189,28 @@
 [04/Dec/2017 14:08:34] INFO [gatewayapp.views:57] User john got questions5 in test1
 [04/Dec/2017 14:08:37] INFO [gatewayapp.views:57] User john got questions4 in test1
 [04/Dec/2017 14:59:55] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 12:58:25] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:02:33] INFO [gatewayapp.views:35] User john got list of questions in test1
+[05/Dec/2017 13:02:55] INFO [gatewayapp.views:21] User john got list of tests
+[05/Dec/2017 13:03:28] INFO [gatewayapp.views:21] User john got list of tests
+[05/Dec/2017 13:05:12] INFO [gatewayapp.views:21] User john got list of tests
+[05/Dec/2017 13:05:43] INFO [gatewayapp.views:21] User john got list of tests
+[05/Dec/2017 13:05:51] INFO [gatewayapp.views:21] User john got list of tests
+[05/Dec/2017 13:07:34] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:10:20] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:11:19] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:12:31] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:16:09] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:16:35] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:18:29] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:18:53] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:38:37] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:40:57] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:41:35] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:46:15] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:46:44] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:49:37] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:51:24] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:52:24] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:53:37] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 13:53:57] INFO [gatewayapp.views:21] User  got list of tests

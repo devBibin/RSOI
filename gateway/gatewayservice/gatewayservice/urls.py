@@ -22,8 +22,8 @@ from gatewayapp import urls
 include('gatewayapp.urls', namespace="gatewayapp")
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^tests/(?P<test_id>[0-9]+)/questions/(?P<question_id>[0-9]+)$', gv.get_question_by_id),
-    url(r'^tests/(?P<test_id>[0-9]+)/questions$', gv.get_questions_by_test),
+    url(r'^tests/(?P<test_id>[0-9]+)/questions/(?P<question_id>[0-9]+)/$', gv.get_question_by_id),
+    url(r'^tests/(?P<test_id>[0-9]+)/questions/$', gv.get_questions_by_test),
     url(r'^tests/(?P<test_id>[0-9]+)/$', gv.get_test_by_id),
     url(r'^tests/$', gv.get_tests),
     url(r'^users/$', gv.get_users),
