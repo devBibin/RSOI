@@ -25,6 +25,7 @@ def get_tests(request):
 
 @login_required
 def get_test_by_id(request, test_id):
+	log.info("User "+str(request.user.username)+" got tests " + str(test_id))
 	r = requests.get(TEST_DOMAIN+request.get_full_path()).json()
 	r["test_id"] = test_id
 	context = {'d': r}
@@ -34,6 +35,7 @@ def get_test_by_id(request, test_id):
 def get_questions_by_test(request, test_id):
 	log.info("User "+str(request.user.username)+" got list of questions in test" + str(test_id))
 	rt = requests.get(TEST_DOMAIN+request.get_full_path()).json()
+	log.info("User "+str(request.user.username)+" got questions")
 	
 	q_ids = []
 	for q in rt["questions"]:
@@ -49,6 +51,7 @@ def get_questions_by_test(request, test_id):
 		else:
 			questions[i]["replied"] = "-"
 	rt["questions"] = questions
+	log.info("User "+str(request.user.username)+" got replied questions")
 	context = {'d': rt}
 	return render(request, 'gatewayapp/question_list.html', context)
 
@@ -76,6 +79,7 @@ def get_users(request):
 	return HttpResponse(r)
 
 def authenticate_user(request):
+	log.info("User authnticating")
 	user = authenticate(request, username="john", password="johnpassword")
 	if user is not None:
 		login(request, user)
@@ -95,17 +99,21 @@ def billing_user(request):
 		request.POST["u_id"] = request.user.id
 		r = requests.post(BILLING_DOMAIN+"/billing/", data=request.POST)
 		r = requests.post(USER_DOMAIN+"/users/alter_group/", data=request.POST)
+		log.info("User "+str(request.user.username)+" group was changed")
 		return HttpResponse("Pay please")
 
 @login_required
 def creative_tasks(request):
 	if (request.method == "GET"):
+		log.info("User "+str(request.user.username)+" visited creative task payment page")
 		context = {'q': []}
 		return render(request, 'gatewayapp/creative_task.html', context)
 	else:
 		request.POST = request.POST.copy()
 		request.POST["user"] = request.user.id
 		r = requests.post(CREATIVE_TASKS_DOMAIN+"/creative/add/", data=request.POST)
+		log.info("User "+str(request.user.username)+" added creative task to creative service")
 		request.POST["task"] = r.content
 		r = requests.post(STATS_DOMAIN+"/stats/save_creative/", data=request.POST)
+		log.info("User "+str(request.user.username)+" confirmed creative task")
 		return HttpResponse("Writing from user" + str(request.POST["user"])+" added")

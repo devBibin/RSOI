@@ -16,7 +16,7 @@ csrf_client = Client(enforce_csrf_checks=True)
 '''
 class ViewTest(TestCase):
 	def setUp(self):
-		User.objects.create(username= "Valentin", password="123")
+		self.user = User.objects.create_user(username= "Valentin", password="123")
 
 	def test_views_get_tests(self):
 		response = self.client.get("/tests/")
@@ -25,12 +25,12 @@ class ViewTest(TestCase):
 	def test_views_get_test_by_id(self):
 		self.client.login(username="Valentin", password="123")
 		response = self.client.get("/tests/1/")
-		self.assertEqual(response.status_code, 302)
+		self.assertEqual(response.status_code, 200)
 
 	def test_views_get_questions_by_test(self):
 		self.client.login(username="Valentin", password="123")
 		response = self.client.get("/tests/1/questions/")
-		self.assertEqual(response.status_code, 302)
+		self.assertEqual(response.status_code, 200)
 
 	def test_views_get_users(self):
 		response = self.client.get("/users/")
@@ -40,14 +40,16 @@ class ViewTest(TestCase):
 	def test_views_billing_user(self):
 		data = {'u_id':'1'}
 		c = Client() #above, from django.test import TestCase,Client
+		c.login(username="Valentin", password="123")
 		#optional, but may be necessary for your configuration: c.login("username","password")
 		response = c.post('/users/billing/',params=data)
-		self.assertEqual(response.status_code, 302)
+		self.assertEqual(response.status_code, 200)
 	
 
 	def test_views_creative_tasks(self):
 		data = {'user':'1', 'task':'2'}
 		c = Client() #above, from django.test import TestCase,Client
+		c.login(username="Valentin", password="123")
 		#optional, but may be necessary for your configuration: c.login("username","password")
 		response = c.post('/creative/',params=data)
-		self.assertEqual(response.status_code, 302)
+		self.assertEqual(response.status_code, 200)
