@@ -10,14 +10,13 @@ from django.http import HttpResponse
 
 @csrf_exempt 
 def create_bill(request):
-	print "HERE"
 	if (request.method == "GET"):
 		context = {'q': []}
 		return HttpResponse(requests.codes["method_not_allowed"])
 	else:
 		b = Billing()
 		b.user_id = request.POST["u_id"]
-		b.payment_for_type = request.POST["service_type"]
+		b.payment_for_type = request.POST["type"]
 		b.transaction_amount = request.POST["amount"]
 		b.transaction_date = datetime.datetime.now()
 

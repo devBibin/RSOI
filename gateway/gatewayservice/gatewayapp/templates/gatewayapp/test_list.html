@@ -1,13 +1,13 @@
 {% extends "gatewayapp/base.html" %}
 {% block content %}
-{% if d.data %}
-{{d.pages_count}}
-    <ul>
-    {% for t in d.data %}
-        <li><a href="/tests/{{t.id}}/">{{ t.theme }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No tests.</p>
-{% endif %}
+	{% if data.data %}
+	{{data.pages_count}}
+	    <ul>
+	    {% for t in data.data %}
+	        <li><a href="/tests/{{t.id}}/">{{ t.theme }}</a></li>
+	    {% endfor %}
+	    </ul>
+	{% else %}
+	    <p>No tests.</p>
+	{% endif %}
 {% endblock %}

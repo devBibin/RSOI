@@ -1,6 +1,6 @@
 {% extends "gatewayapp/base.html" %}
 {% block content %}
-{{d.theme}}<br>
-{{d.intro}}<br>
-<a href="/tests/{{d.test_id}}/questions">Go to questions</a><br>
+{{data.theme}}<br>
+{{data.intro}}<br>
+<a href="/tests/{{data.test_id}}/questions">Go to questions</a><br>
 {% endblock %}

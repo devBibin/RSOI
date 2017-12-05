@@ -12,6 +12,8 @@ from django.http import HttpResponse
 
 def get_users(request):
 	users = User.objects.all()
+	if (len(users) == 0):
+		return JsonResponse({'status':'false','message':'Users not found'}, status=204)
 	response_data = {}
 	response_data["users"] = []
 	for u in users:
