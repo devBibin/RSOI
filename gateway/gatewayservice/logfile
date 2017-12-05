@@ -259,3 +259,21 @@
 [05/Dec/2017 14:23:30] INFO [gatewayapp.views:54] User Valentin got replied questions
 [05/Dec/2017 14:23:30] INFO [gatewayapp.views:28] User Valentin got tests 1
 [05/Dec/2017 14:23:30] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 14:25:08] INFO [gatewayapp.views:97] User Valentin created payment
+[05/Dec/2017 14:25:08] INFO [gatewayapp.views:102] User Valentin group was changed
+[05/Dec/2017 14:25:08] INFO [gatewayapp.views:115] User Valentin added creative task to creative service
+[05/Dec/2017 14:25:08] INFO [gatewayapp.views:118] User Valentin confirmed creative task
+[05/Dec/2017 14:25:09] INFO [gatewayapp.views:36] User Valentin got list of questions in test1
+[05/Dec/2017 14:25:09] INFO [gatewayapp.views:38] User Valentin got questions
+[05/Dec/2017 14:25:09] INFO [gatewayapp.views:54] User Valentin got replied questions
+[05/Dec/2017 14:25:09] INFO [gatewayapp.views:28] User Valentin got tests 1
+[05/Dec/2017 14:25:09] INFO [gatewayapp.views:21] User  got list of tests
+[05/Dec/2017 14:31:39] INFO [gatewayapp.views:97] User Valentin created payment
+[05/Dec/2017 14:31:39] INFO [gatewayapp.views:102] User Valentin group was changed
+[05/Dec/2017 14:31:40] INFO [gatewayapp.views:115] User Valentin added creative task to creative service
+[05/Dec/2017 14:31:40] INFO [gatewayapp.views:118] User Valentin confirmed creative task
+[05/Dec/2017 14:31:40] INFO [gatewayapp.views:36] User Valentin got list of questions in test1
+[05/Dec/2017 14:31:40] INFO [gatewayapp.views:38] User Valentin got questions
+[05/Dec/2017 14:31:40] INFO [gatewayapp.views:54] User Valentin got replied questions
+[05/Dec/2017 14:31:40] INFO [gatewayapp.views:28] User Valentin got tests 1
+[05/Dec/2017 14:31:40] INFO [gatewayapp.views:21] User  got list of tests
