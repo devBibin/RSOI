@@ -13,7 +13,7 @@ def create_bill(request):
 	if (request.method == "GET"):
 		context = {'q': []}
 		return HttpResponse(requests.codes["method_not_allowed"])
-	else:
+	elif (request.method == "POST"):
 		b = Billing()
 		b.user_id = request.POST["u_id"]
 		b.payment_for_type = request.POST["type"]
@@ -21,4 +21,9 @@ def create_bill(request):
 		b.transaction_date = datetime.datetime.now()
 
 		b.save()
+		return HttpResponse(requests.codes["ok"])
+	elif (request.method == "DELETE"):
+		b = Billing.objects.filter(user_id = request.GET["u_id"])
+		b = b[len(b)-1]
+		b.delete()
 		return HttpResponse(requests.codes["ok"])

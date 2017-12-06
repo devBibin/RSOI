@@ -8,6 +8,10 @@ from django.contrib.auth.decorators import login_required
 import requests
 import json
 import logging
+from tasks import *
+from django.views.decorators.csrf import csrf_exempt
+
+
 
 log = logging.getLogger(__name__)
 
@@ -22,7 +26,7 @@ def get_tests(request):
 	try:
 		r = requests.get(TEST_DOMAIN+request.get_full_path())
 		context = {'data': r.json()}
-		return render(request, 'gatewayapp/test_list.html', context)
+		return render(request, 'gatewayapp/test_list.html', context, status= r.status_code)
 	except Exception as e:
 		context = {'data': {"message" : "Service testing is unavailable"}}
 		return render(request, 'gatewayapp/test_list.html', context, status = 503)
@@ -98,7 +102,7 @@ def get_question_by_id(request, test_id, question_id):
 	 	try:
 			r = requests.post(STATS_DOMAIN + "/stats/save_answer/", data = request.POST)
 		except Exception as e:
-			context = {'data': {"message" : "Service testing is unavailable"}}
+			context = {'data': {"message" : "Service stats is unavailable"}}
 			return render(request, 'gatewayapp/test_list.html', context, status = 503)		
 		
 		return HttpResponse("Your answer is" + str(request.POST["is_true"]))
@@ -121,6 +125,7 @@ def authenticate_user(request):
 		return HttpResponse("User not found")
 
 @login_required
+#@csrf_exempt
 def billing_user(request):
 	if (request.method == "GET"):
 		log.info("User "+str(request.user.username)+" visited payment page")
@@ -142,13 +147,16 @@ def billing_user(request):
 			r = requests.post(USER_DOMAIN+"/users/alter_group/", data=request.POST)
 		except Exception as e:
 			log.error("User domain failed")
+			r = requests.delete(BILLING_DOMAIN+"/billing/", params =request.POST)
+			log.error("Cancel payment operation")
 			context = {'data': {"message" : "Service users is unavailable"}}
 			return render(request, 'gatewayapp/test_list.html', context, status = 503)
-		
+
 		log.info("User's "+str(request.user.username)+" group was changed")
 		return HttpResponse("Pay please")
 
 @login_required
+@csrf_exempt
 def creative_tasks(request):
 	if (request.method == "GET"):
 		log.info("User "+str(request.user.username)+" visited creative task page")
@@ -159,19 +167,18 @@ def creative_tasks(request):
 		request.POST["user"] = request.user.id
 		try:
 			r = requests.post(CREATIVE_TASKS_DOMAIN+"/creative/add/", data=request.POST)
+			request.POST["task"] = r.content
+			log.info("User "+str(request.user.username)+" added creative task to creative service")
 		except Exception as e:
-			log.error("Creative tasks domain failed")
-			context = {'data': {"message" : "Service creative is unavailable"}}
-			return render(request, 'gatewayapp/test_list.html', context, status = 503)
-		
-		log.info("User "+str(request.user.username)+" added creative task to creative service")
-		request.POST["task"] = r.content
+			create_issue("http://localhost:8000/users/billing/", "POST", request.POST)
+			log.error("Creative tasks domain failed. Queing request!")
+			return HttpResponse("Writing from user" + str(request.POST["user"])+" added")
+
 		try:
 			r = requests.post(STATS_DOMAIN+"/stats/save_creative/", data=request.POST)
 		except Exception as e:
-			log.error("Stats domain failed")
-			context = {'data': {"message" : "Service stats is unavailable"}}
-			return render(request, 'gatewayapp/test_list.html', context, status = 503)
+			create_issue("http://localhost:8000/users/billing/", "POST", request.POST)
+			log.error("Stats domain failed. Queing request!")
 		
 		log.info("User "+str(request.user.username)+" confirmed creative task")
 		return HttpResponse("Writing from user" + str(request.POST["user"])+" added")
