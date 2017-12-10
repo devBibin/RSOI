@@ -33,6 +33,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+CELERY_IMPORTS = ("gatewayapp.tasks", )
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -43,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djcelery',
+    'kombu.transport.django',
 ]
 
 MIDDLEWARE = [

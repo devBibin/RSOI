@@ -131,7 +131,7 @@ def billing_user(request):
 		log.info("User "+str(request.user.username)+" visited payment page")
 		context = {'data': []}
 		return render(request, 'gatewayapp/billing.html', context)
-	else:
+	if (request.method == "POST"):
 		log.info("User "+str(request.user.username)+" created payment")
 		request.POST = request.POST.copy()
 		request.POST["u_id"] = request.user.id 
@@ -155,9 +155,10 @@ def billing_user(request):
 		log.info("User's "+str(request.user.username)+" group was changed")
 		return HttpResponse("Pay please")
 
-@login_required
+
 @csrf_exempt
 def creative_tasks(request):
+	log.info("User "+str(request.user.username)+" went to creative task")
 	if (request.method == "GET"):
 		log.info("User "+str(request.user.username)+" visited creative task page")
 		context = {'data': []}
@@ -170,14 +171,14 @@ def creative_tasks(request):
 			request.POST["task"] = r.content
 			log.info("User "+str(request.user.username)+" added creative task to creative service")
 		except Exception as e:
-			create_issue("http://localhost:8000/users/billing/", "POST", request.POST)
+			IssueTask.delay("http://localhost:8000/creative/", "POST", request.POST)
 			log.error("Creative tasks domain failed. Queing request!")
 			return HttpResponse("Writing from user" + str(request.POST["user"])+" added")
 
 		try:
 			r = requests.post(STATS_DOMAIN+"/stats/save_creative/", data=request.POST)
 		except Exception as e:
-			create_issue("http://localhost:8000/users/billing/", "POST", request.POST)
+			IssueTask.delay("http://localhost:8000/creative/", "POST", request.POST)
 			log.error("Stats domain failed. Queing request!")
 		
 		log.info("User "+str(request.user.username)+" confirmed creative task")
