@@ -27,8 +27,9 @@ urlpatterns = [
     url(r'^tests/(?P<test_id>[0-9]+)/$', gv.get_test_by_id),
     url(r'^tests/$', gv.get_tests),
     url(r'^users/auth/$', gv.redirect_auth),
-    url(r'^accounts/login/$', gv.redirect_auth),
     url(r'^users/auth2/$', gv.auth),
+    url(r'^users/is_auth/$', gv.is_auth),
+    url(r'^users/reauth/$', gv.reauth),
     url(r'^users/billing/$', gv.billing_user),
     url(r'^creative/$', gv.creative_tasks),
 ]

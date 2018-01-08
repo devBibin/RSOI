@@ -12,7 +12,7 @@ from django.http import HttpResponse
 @csrf_exempt
 def save_creative_task(request):
 	ct = CreativeTask()
-	ct.user_id = request.POST["user"]
+	ct.user_id = request.POST["user_id"]
 	ct.answer = request.POST["creative_task"]
 
 	ct.save()

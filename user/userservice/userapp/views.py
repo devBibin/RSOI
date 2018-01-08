@@ -30,7 +30,7 @@ def get_users(request):
 
 @csrf_exempt
 def alter_user_group(request):
-	u = User.objects.filter(pk =request.POST["u_id"])
+	u = User.objects.filter(pk =request.POST["user_id"])
 	u_groups = User.groups.through.objects.get(user = u)
 	u_groups.group = Group.objects.filter(name = "advanced user")[0]
 	u_groups.save()
@@ -38,18 +38,19 @@ def alter_user_group(request):
 
 
 def is_admin(user):
-    return user.groups.filter(name='admin').exists()
+	return user.groups.filter(name='admin').exists()
 
 
 @protected_resource()
 def rights_check(request):
-    return HttpResponse(status=200)
+	user = request.resource_owner
+	return HttpResponse(user.pk, status=200)
 
 
 @protected_resource()
 def check_admin_rights(request):
-    user = request.resource_owner
-    if is_admin(user):
-        return HttpResponse(status=200)
-    else:
-        return HttpResponse(status=403)
+	user = request.resource_owner
+	if is_admin(user):
+		return HttpResponse(status=200)
+	else:
+		return HttpResponse(status=403)

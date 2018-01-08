@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.http import JsonResponse, HttpResponseRedirect
+from django.http import JsonResponse, HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
@@ -50,11 +50,11 @@ def get_test_by_id(request, test_id):
 		return JsonResponse(context, status = 503)
 
 
-@login_required
 def get_questions_by_test(request, test_id):
+	user_id = request.GET.get("user_id")
 	try:
 		rt = requests.get(TEST_DOMAIN+request.get_full_path()).json()
-		log.info("User "+str(request.user.username)+" got questions")
+		log.info("User "+str(user_id)+" got questions")
 	except Exception as e:
 		context = {"message" : "К сожалению сервис тестирование не доступен. Мы уже спешим и скоро все починим. Приносим свои извинения."}
 		return JsonResponse(context, status = 503)
@@ -65,7 +65,7 @@ def get_questions_by_test(request, test_id):
 	q_ids = {"question": q_ids}
 	
 	try:
-		rs = requests.get(STATS_DOMAIN + "/stats/get_stats/user/"+str(request.user.id)+"/", params = q_ids).json()
+		rs = requests.get(STATS_DOMAIN + "/stats/get_stats/user/"+str(user_id)+"/", params = q_ids).json()
 		questions = rt["questions"]
 		replied = rs["replied"]
 		for i in range(len(questions)):
@@ -74,7 +74,7 @@ def get_questions_by_test(request, test_id):
 			else:
 				questions[i]["replied"] = "-"
 		rt["questions"] = questions
-		log.info("User "+str(request.user.username)+" got replied questions")
+		log.info("User "+str(user_id)+" got replied questions")
 	except Exception as e:
 		log.error("Degradation of functionality because of failing stats service")
 	
@@ -82,10 +82,10 @@ def get_questions_by_test(request, test_id):
 	return JsonResponse(context, status = 200)
 
 @csrf_exempt
-@login_required 
 def get_question_by_id(request, test_id, question_id):
-	log.info("User "+str(request.user.username)+" got questions"+str(question_id) +" in test" + str(test_id))
 	if (request.method == "GET"):
+		user_id = request.GET.get("user_id")
+		log.info("User "+str(user_id)+" got questions"+str(question_id) +" in test" + str(test_id))
 		try:
 			r = requests.get(TEST_DOMAIN+request.get_full_path())
 		except Exception as e:
@@ -95,14 +95,15 @@ def get_question_by_id(request, test_id, question_id):
 		d["is_true"] = ""
 		context = {'data': d}
 		return JsonResponse(context, status = 200)
-	else:
+	elif (request.method == "POST"):
 		request.POST = request.POST.copy()
 		request.POST["question"] = question_id
 		request.POST["test"] = test_id
-		request.POST["user"] = request.user.id
 	 	if (request.POST.get("choice") == requests.get(TEST_DOMAIN + "/tests/"+test_id+"/questions/"+str(question_id)+"/answer").content):
 	 		request.POST["is_true"] = True
+	 		log.info("User " + str(request.POST.get("user_id")) + " gave CORRECT answer")
 	 	else:
+	 		log.info("User " + str(request.POST.get("user_id")) + " gave WRONG answer")
 	 		request.POST["is_true"] = False
 
 	 	try:
@@ -113,21 +114,19 @@ def get_question_by_id(request, test_id, question_id):
 			context = {'data': d}
 			return JsonResponse(context, status = 200)
 		except Exception as e:
+			log.error("Service stats FAILED")
 			context = {"message" : "К сожалению сервис статистики не доступен. Мы уже спешим и скоро все починим. Приносим свои извинения."}
 			return JsonResponse(context, status = 503)
 
 @csrf_exempt
-@login_required 
 def billing_user(request):
 	if (request.method == "GET"):
-		log.info("User "+str(request.user.username)+" visited payment page")
+		user_id = request.GET.get("user_id")
+		log.info("User "+str(user_id)+" visited payment page")
 		context = {'data': []}
 		return JsonResponse(context, status = 200)
-	if (request.method == "POST"):
-		log.info("User "+str(request.user.username)+" created payment")
-		request.POST = request.POST.copy()
-		request.POST["u_id"] = request.user.id 
-		
+	elif (request.method == "POST"):
+		log.info("User "+str(request.POST.get("user_id"))+" created payment")
 		try:
 			r = requests.post(BILLING_DOMAIN+"/billing/", data=request.POST)
 		except Exception as e:
@@ -149,7 +148,6 @@ def billing_user(request):
 		return JsonResponse(context, status = 202)
 
 @csrf_exempt
-@login_required 
 def creative_tasks(request):
 	log.info("User "+str(request.user.username)+" went to creative task")
 	if (request.method == "GET"):
@@ -185,55 +183,64 @@ def redirect_auth(request):
 	return HttpResponseRedirect(
 		'http://localhost:8082/o/authorize/?response_type=code&client_id=omhZuMcRszStOVnf97YHCPEs98Dv3DIbsW1pLrrU&state=random_state_string')
 
+@csrf_exempt
 def auth(request):
-    log.info("Try to get tokens")
-    header = {
-        'Authorization': 'Basic ' + APPLICATION_AUTH}
-    data = {'code': request.GET['code'], 'grant_type': 'authorization_code',
-            'redirect_uri': 'http://localhost:8001/users/auth2/'}
-    target = 'http://localhost:8082/o/token/'
-    resp = requests.post(target, data=data, headers=header)
-    if resp.status_code == 200:
-        content = json.loads(resp.content)
-        print content
-        r2 = HttpResponseRedirect(
-            RENDER_DOMAIN + '/users/auth_succsess/?token=' + content['access_token'] + '&refresh=' + content['refresh_token'])
-        return r2
-    return resp
+	log.info("Try to get tokens")
+	header = {
+		'Authorization': 'Basic ' + APPLICATION_AUTH}
+	data = {'code': request.GET['code'], 'grant_type': 'authorization_code',
+			'redirect_uri': 'http://localhost:8001/users/auth2/'}
+	target = 'http://localhost:8082/o/token/'
+	resp = requests.post(target, data=data, headers=header)
+	if resp.status_code == 200:
+		content = json.loads(resp.content)
+		print content
+		r2 = HttpResponseRedirect(
+			RENDER_DOMAIN + '/users/auth_succsess/?token=' + content['access_token'] + '&refresh=' + content['refresh_token'])
+		return r2
+	return resp
 
+@csrf_exempt
 def reauth(request):
-    log.info("Reauth user")
-    header = {
-        'Authorization': 'Basic ' + APP_AUTH}
-    data = {'refresh_token': str(request.POST.get('code')), 'grant_type': 'refresh_token'}
-    target = 'http://127.0.0.1:8005/o/token/'
-    resp = requests.post(target, data=data, headers=header)
-    if resp.status_code == 200:
-        content = json.loads(resp.content)
-        ret_data = {'token': content['access_token'], 'refresh': content['refresh_token']}
-        return HttpResponse(status=200, content=json.dumps(ret_data))
-    return resp
+	d =  request.POST
+	log.info("Reauth user with refresh token: " + d["code"])
+	header = {
+		'Authorization': 'Basic ' + APPLICATION_AUTH}
+	data = {'refresh_token': str(d["code"]), 'grant_type': 'refresh_token'}
+	target = 'http://localhost:8082/o/token/'
+	resp = requests.post(target, data=data, headers=header)
+	if resp.status_code == 200:
+		content = json.loads(resp.content)
+		ret_data = {'token': content['access_token'], 'refresh': content['refresh_token']}
+		return HttpResponse(status=200, content=json.dumps(ret_data))
+	return resp
+	return HttpResponse(status = 200)
 
+@csrf_exempt
 def has_access(request):
-    header = {'Authorization': str(request.META.get('HTTP_AUTHORIZATION'))}
-    resp = requests.get(USER_DOMAIN + '/users/check_rights/', headers=header)
-    if resp.status_code == 200:
-        return True
-    else:
-        return False
+	log.info("Checking if user has rights with: " + str(request.META.get('HTTP_AUTHORIZATION')))
+	header = {'Authorization': str(request.META.get('HTTP_AUTHORIZATION'))}
+	resp = requests.get(USER_DOMAIN + '/users/check_rights/', headers=header)
+	if resp.status_code == 200:
+		return resp.content
+	else:
+		return False
 
-
+@csrf_exempt
 def has_admin_access(request):
-    header = {'Authorization': str(request.META.get('HTTP_AUTHORIZATION'))}
-    resp = requests.get(USER_DOMAIN + '/users/check_admin_rights/', headers=header)
-    if resp.status_code == 200:
-        return True
-    else:
-        return False
+	log.info("Checking if user is admin")
+	header = {'Authorization': str(request.META.get('HTTP_AUTHORIZATION'))}
+	resp = requests.get(USER_DOMAIN + '/users/check_admin_rights/', headers=header)
+	if resp.status_code == 200:
+		return resp.content
+	else:
+		return False
 
-
+@csrf_exempt
 def is_auth(request):
-    if has_access(request):
-        return HttpResponse(status=200)
-    else:
-        return HttpResponse(status=401)
+	log.info("Checking if user is authenthicated")
+	if has_access(request):
+		u_id = has_access(request)
+		return HttpResponse(u_id, status=200)
+	else:
+		return HttpResponse(status=401)

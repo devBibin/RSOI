@@ -125,3 +125,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+OAUTH2_PROVIDER = {
+    'ACCESS_TOKEN_EXPIRE_SECONDS': 10,
+    'AUTHORIZATION_CODE_EXPIRE_SECONDS': 600,
+}
