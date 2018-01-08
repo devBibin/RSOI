@@ -151,16 +151,16 @@ def billing_user(request):
 def creative_tasks(request):
 	log.info("User "+str(request.user.username)+" went to creative task")
 	if (request.method == "GET"):
-		log.info("User "+str(request.user.username)+" visited creative task page")
+		user_id = request.GET.get("user_id")
+		log.info("User "+str(user_id)+" visited creative task page")
 		context = {'data': []}
 		return JsonResponse(context, status = 200)
 	else:
 		request.POST = request.POST.copy()
-		request.POST["user"] = 2
 		try:
 			r = requests.post(CREATIVE_TASKS_DOMAIN+"/creative/add/", data=request.POST)
 			request.POST["task"] = r.content
-			log.info("User "+str(request.user.username)+" added creative task to creative service")
+			log.info("User "+str(request.POST.get("user_id"))+" added creative task to creative service")
 		except Exception as e:
 			IssueTask.delay("http://localhost:8000/creative/", "POST", request.POST)
 			log.error("Creative tasks domain failed. Queing request!")

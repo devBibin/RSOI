@@ -138,7 +138,7 @@ def creative_tasks(request):
 		context = r.json()
 		if (r.status_code == 200):
 			return render(request, 'renderapp/creative_task.html', context)
-		elif (r.status == 202):
+		elif (r.status_code == 202):
 			return render(request, 'renderapp/notification_page.html', context)
 		else:
 			return render(request, 'renderapp/error_page.html', context)

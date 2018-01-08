@@ -1,388 +1,369 @@
-[08/Jan/2018 17:47:30] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:47:30] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:48:46] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:48:46] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer gj2xgooVFSLd8JTr1JcAofuhfRFK0Q
-[08/Jan/2018 17:48:46] INFO [gatewayapp.views:204] Reauth user with refresh token: kcQRtcb9Hn4xCHtqo4CLcsQYT5d3fo
-[08/Jan/2018 17:48:46] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:48:46] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer J8JzDsh0npkcq9Bpkafwzn0U9kpafA
-[08/Jan/2018 17:48:46] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:48:46] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:48:48] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:48:48] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer J8JzDsh0npkcq9Bpkafwzn0U9kpafA
-[08/Jan/2018 17:48:48] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:48:48] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:49:35] INFO [gatewayapp.views:180] Try to redirect to user service
-[08/Jan/2018 17:49:37] INFO [gatewayapp.views:186] Try to get tokens
-[08/Jan/2018 17:49:59] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:49:59] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 5cB59RRGfG1jjaBuWY9Q1JnKNDZWh6
-[08/Jan/2018 17:49:59] INFO [gatewayapp.views:204] Reauth user with refresh token: IydrRBKO9Y2wAmsjO6Fsr2kAUe3KPf
-[08/Jan/2018 17:49:59] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:49:59] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer ze45pEUvTlOJKiw1hCyCUpQPgGad57
-[08/Jan/2018 17:49:59] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:49:59] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:50:05] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:50:05] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer ze45pEUvTlOJKiw1hCyCUpQPgGad57
-[08/Jan/2018 17:50:05] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:50:05] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:50:18] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:50:18] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer ze45pEUvTlOJKiw1hCyCUpQPgGad57
-[08/Jan/2018 17:50:18] INFO [gatewayapp.views:204] Reauth user with refresh token: RgDAzEOohmecrmPxAoo5ajMPRu7Oqr
-[08/Jan/2018 17:50:18] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:50:18] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer I2SEroqTa91YRYvs3TpgiyaSF4IsMU
-[08/Jan/2018 17:50:18] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:50:18] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:50:28] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:50:28] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer I2SEroqTa91YRYvs3TpgiyaSF4IsMU
-[08/Jan/2018 17:50:28] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:50:28] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:50:35] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:50:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer I2SEroqTa91YRYvs3TpgiyaSF4IsMU
-[08/Jan/2018 17:50:35] INFO [gatewayapp.views:204] Reauth user with refresh token: m9Mw40QJbnslni1ruhhm9Q1xtqTqsr
-[08/Jan/2018 17:50:35] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:50:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer DH6vacGTtgZVaEmRpLN9piXCiZ3a6d
-[08/Jan/2018 17:50:35] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:50:35] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:51:01] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:51:01] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer DH6vacGTtgZVaEmRpLN9piXCiZ3a6d
-[08/Jan/2018 17:51:01] INFO [gatewayapp.views:204] Reauth user with refresh token: sHVbajZ7SuFMsCT8w6oBRcrb7wrQXd
-[08/Jan/2018 17:51:01] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:51:01] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer h6p3Hq2nE0Uu3f6qtYhWSvqRvhw1qp
-[08/Jan/2018 17:51:01] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:51:01] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:51:56] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:51:56] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer h6p3Hq2nE0Uu3f6qtYhWSvqRvhw1qp
-[08/Jan/2018 17:51:56] INFO [gatewayapp.views:204] Reauth user with refresh token: 45Ul0KPWaNMVUAFNlJSbQ5YilcVxA1
-[08/Jan/2018 17:51:56] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:51:56] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer ljcXm4YTP2PHhAMGL6NXg6x0hGeWaO
-[08/Jan/2018 17:51:56] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:51:56] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:52:09] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:52:09] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer ljcXm4YTP2PHhAMGL6NXg6x0hGeWaO
-[08/Jan/2018 17:52:09] INFO [gatewayapp.views:204] Reauth user with refresh token: d6yuRCfYtEdJlpe4T8rWOosMHmm5NX
-[08/Jan/2018 17:52:09] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:52:09] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 4bKHnEW6spLhPJa71Kt2Y6pmO4eULr
-[08/Jan/2018 17:52:09] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:52:09] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:52:10] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:52:10] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 4bKHnEW6spLhPJa71Kt2Y6pmO4eULr
-[08/Jan/2018 17:52:10] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:52:11] ERROR [gatewayapp.views:164] Creative tasks domain failed. Queing request!
-[08/Jan/2018 17:53:34] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:53:34] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 4bKHnEW6spLhPJa71Kt2Y6pmO4eULr
-[08/Jan/2018 17:53:34] INFO [gatewayapp.views:204] Reauth user with refresh token: 6JP7TIKlgS4V0a8ZrfyafY4BukIirA
-[08/Jan/2018 17:53:34] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:53:34] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer BsUY8Fds7opeoyoJoadPFKoL6Mdg4M
-[08/Jan/2018 17:53:34] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 17:53:34] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 17:53:35] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:53:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer BsUY8Fds7opeoyoJoadPFKoL6Mdg4M
-[08/Jan/2018 17:53:35] INFO [gatewayapp.views:120] User  visited payment page
-[08/Jan/2018 17:53:39] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:53:39] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer BsUY8Fds7opeoyoJoadPFKoL6Mdg4M
-[08/Jan/2018 17:53:39] INFO [gatewayapp.views:124] User  created payment
-[08/Jan/2018 17:53:40] INFO [gatewayapp.views:144] User's  group was changed
-[08/Jan/2018 17:58:48] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:58:48] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer BsUY8Fds7opeoyoJoadPFKoL6Mdg4M
-[08/Jan/2018 17:58:48] INFO [gatewayapp.views:204] Reauth user with refresh token: cy24QheGPafRNy7t1OU9mJmVU0cSrH
-[08/Jan/2018 17:58:48] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:58:48] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer dxMSSHdGtOlJY0e7pFD4laMrlph8ym
-[08/Jan/2018 17:58:48] INFO [gatewayapp.views:120] User  visited payment page
-[08/Jan/2018 17:58:50] INFO [gatewayapp.views:30] User  got list of tests
-[08/Jan/2018 17:58:51] INFO [gatewayapp.views:43] User  got test 1
-[08/Jan/2018 17:58:52] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 17:58:52] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer dxMSSHdGtOlJY0e7pFD4laMrlph8ym
-[08/Jan/2018 17:58:52] INFO [gatewayapp.views:56] User  got questions
-[08/Jan/2018 17:58:52] ERROR [gatewayapp.views:78] Degradation of functionality because of failing stats service
-[08/Jan/2018 18:00:35] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:00:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer dxMSSHdGtOlJY0e7pFD4laMrlph8ym
-[08/Jan/2018 18:00:35] INFO [gatewayapp.views:204] Reauth user with refresh token: rD6myPMSIwKx66M6CKtBWAasT6oEUj
-[08/Jan/2018 18:00:36] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:00:36] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer B2REqhdrW2uhnnxDiVHNlc2lB4hThY
-[08/Jan/2018 18:00:36] INFO [gatewayapp.views:120] User  visited payment page
-[08/Jan/2018 18:00:37] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:00:37] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer B2REqhdrW2uhnnxDiVHNlc2lB4hThY
-[08/Jan/2018 18:00:37] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 18:00:37] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 18:02:05] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:02:05] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer B2REqhdrW2uhnnxDiVHNlc2lB4hThY
-[08/Jan/2018 18:02:05] INFO [gatewayapp.views:204] Reauth user with refresh token: tE7q7WPdLlpL1mVFuCua79pc8vIuBR
-[08/Jan/2018 18:02:05] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:02:05] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 9c4CqJyDnsI6Yj7q0sW98nU6kv2kxx
-[08/Jan/2018 18:02:05] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 18:02:05] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 18:06:35] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:06:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 9c4CqJyDnsI6Yj7q0sW98nU6kv2kxx
-[08/Jan/2018 18:06:35] INFO [gatewayapp.views:204] Reauth user with refresh token: WRAnzTFNzaKVxuoXuUGZzH0jwf9JpG
-[08/Jan/2018 18:06:35] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:06:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer lizRkY6io9Oa5tzyxmffNT09qOw1GT
-[08/Jan/2018 18:06:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer lizRkY6io9Oa5tzyxmffNT09qOw1GT
-[08/Jan/2018 18:07:01] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:07:01] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer lizRkY6io9Oa5tzyxmffNT09qOw1GT
-[08/Jan/2018 18:07:02] INFO [gatewayapp.views:204] Reauth user with refresh token: AE5R1jOjhjQdPnhXNicVvpodDpLOB5
-[08/Jan/2018 18:07:02] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:07:02] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7k4AolNi2DjAweSffSBgcEjGljU0Bt
-[08/Jan/2018 18:07:02] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7k4AolNi2DjAweSffSBgcEjGljU0Bt
-[08/Jan/2018 18:07:48] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:07:48] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7k4AolNi2DjAweSffSBgcEjGljU0Bt
-[08/Jan/2018 18:07:48] INFO [gatewayapp.views:204] Reauth user with refresh token: CDHiNd5vBx6lU21z9Aw8I8SxgEa5Q3
-[08/Jan/2018 18:07:48] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:07:48] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer Lbw2ihER9uJRsnXKQHsys1qnTZ9yvw
-[08/Jan/2018 18:07:48] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer Lbw2ihER9uJRsnXKQHsys1qnTZ9yvw
-[08/Jan/2018 18:07:49] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:07:49] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer Lbw2ihER9uJRsnXKQHsys1qnTZ9yvw
-[08/Jan/2018 18:07:49] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer Lbw2ihER9uJRsnXKQHsys1qnTZ9yvw
-[08/Jan/2018 18:07:51] INFO [gatewayapp.views:43] User  got test 1
-[08/Jan/2018 18:07:53] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:07:53] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer Lbw2ihER9uJRsnXKQHsys1qnTZ9yvw
-[08/Jan/2018 18:07:53] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer Lbw2ihER9uJRsnXKQHsys1qnTZ9yvw
-[08/Jan/2018 18:09:34] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:09:34] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer Lbw2ihER9uJRsnXKQHsys1qnTZ9yvw
-[08/Jan/2018 18:09:34] INFO [gatewayapp.views:204] Reauth user with refresh token: iC7VQVdZonsLPjmED1adJqRyZcX4Ao
-[08/Jan/2018 18:09:34] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:09:34] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer N8vXqTdh0iRAVJ9Gd2iPVmk9DpecfE
-[08/Jan/2018 18:09:34] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer N8vXqTdh0iRAVJ9Gd2iPVmk9DpecfE
-[08/Jan/2018 18:09:34] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 18:09:34] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 18:13:08] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:08] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer N8vXqTdh0iRAVJ9Gd2iPVmk9DpecfE
-[08/Jan/2018 18:13:09] INFO [gatewayapp.views:204] Reauth user with refresh token: ldVayhkJjD9QEBkUrlr4AuXxw0l4n9
-[08/Jan/2018 18:13:09] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:09] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7bXw5GfEjYQ0Kzhjglt2r3ykpUjU49
-[08/Jan/2018 18:13:09] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7bXw5GfEjYQ0Kzhjglt2r3ykpUjU49
-[08/Jan/2018 18:13:09] INFO [gatewayapp.views:120] User  visited payment page
-[08/Jan/2018 18:13:13] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:13] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7bXw5GfEjYQ0Kzhjglt2r3ykpUjU49
-[08/Jan/2018 18:13:13] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7bXw5GfEjYQ0Kzhjglt2r3ykpUjU49
-[08/Jan/2018 18:13:13] INFO [gatewayapp.views:120] User  visited payment page
-[08/Jan/2018 18:13:13] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:13] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7bXw5GfEjYQ0Kzhjglt2r3ykpUjU49
-[08/Jan/2018 18:13:13] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7bXw5GfEjYQ0Kzhjglt2r3ykpUjU49
-[08/Jan/2018 18:13:14] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 18:13:14] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 18:13:31] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:31] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer 7bXw5GfEjYQ0Kzhjglt2r3ykpUjU49
-[08/Jan/2018 18:13:31] INFO [gatewayapp.views:204] Reauth user with refresh token: qU2uYg9GxqNnHJ1m93hNyBQlMcyntn
-[08/Jan/2018 18:13:31] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:31] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer orkLm0TAWQmwuGORQERdOjlkeRiyeB
-[08/Jan/2018 18:13:31] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer orkLm0TAWQmwuGORQERdOjlkeRiyeB
-[08/Jan/2018 18:13:31] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 18:13:31] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 18:13:35] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer orkLm0TAWQmwuGORQERdOjlkeRiyeB
-[08/Jan/2018 18:13:35] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer orkLm0TAWQmwuGORQERdOjlkeRiyeB
-[08/Jan/2018 18:13:35] INFO [gatewayapp.views:120] User  visited payment page
-[08/Jan/2018 18:13:44] INFO [gatewayapp.views:30] User  got list of tests
-[08/Jan/2018 18:13:44] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:44] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer orkLm0TAWQmwuGORQERdOjlkeRiyeB
-[08/Jan/2018 18:13:44] INFO [gatewayapp.views:204] Reauth user with refresh token: nM03CdcwdBsgo4dhDCFitGjv4KgbLl
-[08/Jan/2018 18:13:45] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:13:45] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer bacSw643Bt3gUfLJJIH9dNb7ZzajuM
-[08/Jan/2018 18:13:45] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer bacSw643Bt3gUfLJJIH9dNb7ZzajuM
-[08/Jan/2018 18:13:45] INFO [gatewayapp.views:120] User  visited payment page
-[08/Jan/2018 18:14:46] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:14:46] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer bacSw643Bt3gUfLJJIH9dNb7ZzajuM
-[08/Jan/2018 18:14:46] INFO [gatewayapp.views:204] Reauth user with refresh token: JK9cF3HLopRFmcJJE4tHTjnThaAdMQ
-[08/Jan/2018 18:14:46] INFO [gatewayapp.views:239] Checking if user is authenthicated
-[08/Jan/2018 18:14:46] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer jn52oeZnWD73qypYu1WNry8dj6MBpW
-[08/Jan/2018 18:14:46] INFO [gatewayapp.views:219] Checking if user has rights with: Bearer jn52oeZnWD73qypYu1WNry8dj6MBpW
-[08/Jan/2018 18:14:46] INFO [gatewayapp.views:150] User  went to creative task
-[08/Jan/2018 18:14:46] INFO [gatewayapp.views:152] User  visited creative task page
-[08/Jan/2018 18:25:47] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:25:47] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer jn52oeZnWD73qypYu1WNry8dj6MBpW
-[08/Jan/2018 18:25:47] INFO [gatewayapp.views:205] Reauth user with refresh token: IHgesNxvTTfzqoDWooHxFH1VS8rjeF
-[08/Jan/2018 18:25:47] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:25:47] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer OVLThZhAy5zeBypADhXnlEt8fkvL4Q
-[08/Jan/2018 18:25:47] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer OVLThZhAy5zeBypADhXnlEt8fkvL4Q
-[08/Jan/2018 18:25:47] INFO [gatewayapp.views:151] User  went to creative task
-[08/Jan/2018 18:25:47] INFO [gatewayapp.views:153] User  visited creative task page
-[08/Jan/2018 18:25:48] INFO [gatewayapp.views:30] User  got list of tests
-[08/Jan/2018 18:25:49] INFO [gatewayapp.views:43] User  got test 1
-[08/Jan/2018 18:25:50] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:25:50] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer OVLThZhAy5zeBypADhXnlEt8fkvL4Q
-[08/Jan/2018 18:25:50] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer OVLThZhAy5zeBypADhXnlEt8fkvL4Q
-[08/Jan/2018 18:25:50] INFO [gatewayapp.views:57] User None got questions
-[08/Jan/2018 18:25:50] ERROR [gatewayapp.views:79] Degradation of functionality because of failing stats service
-[08/Jan/2018 18:28:01] INFO [gatewayapp.views:30] User  got list of tests
-[08/Jan/2018 18:28:02] INFO [gatewayapp.views:43] User  got test 1
-[08/Jan/2018 18:28:03] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:28:03] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer OVLThZhAy5zeBypADhXnlEt8fkvL4Q
-[08/Jan/2018 18:28:03] INFO [gatewayapp.views:205] Reauth user with refresh token: TIWHDHYyl5aoTTtwWECgT6D0rpd9AO
-[08/Jan/2018 18:28:03] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:28:03] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer CbsFAZR67tmCig5LS6ZeBjVE5mO07f
-[08/Jan/2018 18:28:03] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer CbsFAZR67tmCig5LS6ZeBjVE5mO07f
-[08/Jan/2018 18:28:03] INFO [gatewayapp.views:57] User 2 got questions
-[08/Jan/2018 18:28:04] INFO [gatewayapp.views:77] User 2 got replied questions
-[08/Jan/2018 18:30:28] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:30:28] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer CbsFAZR67tmCig5LS6ZeBjVE5mO07f
-[08/Jan/2018 18:30:28] INFO [gatewayapp.views:205] Reauth user with refresh token: Kn6LEu152oxefVUiqRaHZgDjN2vdbK
-[08/Jan/2018 18:30:28] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:30:28] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer lXA2RBo2vyy3GIEf0HyBqBNjZWXpQY
-[08/Jan/2018 18:30:28] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer lXA2RBo2vyy3GIEf0HyBqBNjZWXpQY
-[08/Jan/2018 18:30:28] INFO [gatewayapp.views:86] User  got questions5 in test1
-[08/Jan/2018 18:30:30] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:30:30] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer lXA2RBo2vyy3GIEf0HyBqBNjZWXpQY
-[08/Jan/2018 18:30:30] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer lXA2RBo2vyy3GIEf0HyBqBNjZWXpQY
-[08/Jan/2018 18:30:30] INFO [gatewayapp.views:86] User  got questions5 in test1
-[08/Jan/2018 18:30:32] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:30:32] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer lXA2RBo2vyy3GIEf0HyBqBNjZWXpQY
-[08/Jan/2018 18:30:32] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer lXA2RBo2vyy3GIEf0HyBqBNjZWXpQY
-[08/Jan/2018 18:30:32] INFO [gatewayapp.views:86] User  got questions5 in test1
-[08/Jan/2018 18:34:58] INFO [gatewayapp.views:30] User  got list of tests
-[08/Jan/2018 18:34:59] INFO [gatewayapp.views:43] User  got test 1
-[08/Jan/2018 18:35:00] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:00] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer lXA2RBo2vyy3GIEf0HyBqBNjZWXpQY
-[08/Jan/2018 18:35:00] INFO [gatewayapp.views:205] Reauth user with refresh token: ggfcVxodtAjPqzKpmDXDatkQFfiIBC
-[08/Jan/2018 18:35:00] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:00] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:00] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:00] INFO [gatewayapp.views:57] User 2 got questions
-[08/Jan/2018 18:35:00] INFO [gatewayapp.views:77] User 2 got replied questions
-[08/Jan/2018 18:35:01] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:01] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:01] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:01] INFO [gatewayapp.views:88] User 2 got questions2 in test1
-[08/Jan/2018 18:35:03] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:03] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:03] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:06] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:06] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:06] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:08] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:08] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:08] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:12] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:12] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer XpA79JJgZWyPqgA7dUimrTOVzwq02b
-[08/Jan/2018 18:35:12] INFO [gatewayapp.views:205] Reauth user with refresh token: ib7vrfopFIns5vXyQqBn6yuxlfb3pb
-[08/Jan/2018 18:35:12] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:12] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:12] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:12] INFO [gatewayapp.views:88] User 2 got questions2 in test1
-[08/Jan/2018 18:35:14] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:14] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:14] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:17] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:17] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:17] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:19] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:19] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:19] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:21] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:21] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:21] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:24] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:24] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer FbGWmfYWe9dFVEDz7QS8zvPcGqSCtJ
-[08/Jan/2018 18:35:24] INFO [gatewayapp.views:205] Reauth user with refresh token: Jbix2X3AvjOI3sKjDPLInbyGBidte1
-[08/Jan/2018 18:35:24] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:24] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:24] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:24] INFO [gatewayapp.views:88] User 2 got questions2 in test1
-[08/Jan/2018 18:35:25] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:25] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:25] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:29] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:29] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:29] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:32] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:32] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:32] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:34] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:34] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer 4F5woXYqG48FC9KYMmD50PzFYn0JVo
-[08/Jan/2018 18:35:34] INFO [gatewayapp.views:205] Reauth user with refresh token: eAzvPtM0Wrwm3xrdPzBkNT4TYoOsLR
-[08/Jan/2018 18:35:34] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:34] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer wTeZRr01hB0mcKGF51hGf7fvkFewSW
-[08/Jan/2018 18:35:34] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer wTeZRr01hB0mcKGF51hGf7fvkFewSW
-[08/Jan/2018 18:35:34] INFO [gatewayapp.views:88] User 2 got questions2 in test1
-[08/Jan/2018 18:35:37] INFO [gatewayapp.views:240] Checking if user is authenthicated
-[08/Jan/2018 18:35:37] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer wTeZRr01hB0mcKGF51hGf7fvkFewSW
-[08/Jan/2018 18:35:37] INFO [gatewayapp.views:220] Checking if user has rights with: Bearer wTeZRr01hB0mcKGF51hGf7fvkFewSW
-[08/Jan/2018 18:44:05] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:44:05] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer wTeZRr01hB0mcKGF51hGf7fvkFewSW
-[08/Jan/2018 18:44:05] INFO [gatewayapp.views:206] Reauth user with refresh token: hd8RGEYS2tp4tnk0ymGi3hD8gXchJd
-[08/Jan/2018 18:44:05] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:44:05] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer VSUF3R9UBDkJAta7cmT1IiM9a617sz
-[08/Jan/2018 18:44:05] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer VSUF3R9UBDkJAta7cmT1IiM9a617sz
-[08/Jan/2018 18:44:05] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:44:07] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:44:07] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer VSUF3R9UBDkJAta7cmT1IiM9a617sz
-[08/Jan/2018 18:44:07] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer VSUF3R9UBDkJAta7cmT1IiM9a617sz
-[08/Jan/2018 18:44:07] INFO [gatewayapp.views:152] User  went to creative task
-[08/Jan/2018 18:44:07] INFO [gatewayapp.views:154] User  visited creative task page
-[08/Jan/2018 18:46:50] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:46:50] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer VSUF3R9UBDkJAta7cmT1IiM9a617sz
-[08/Jan/2018 18:46:50] INFO [gatewayapp.views:206] Reauth user with refresh token: QSLLxdO90WTHwtCk6t3i9YRwtmnkWb
-[08/Jan/2018 18:46:50] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:46:50] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer BSFynIgeGEXYqRqLjd06aEhpRlK21Y
-[08/Jan/2018 18:46:50] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer BSFynIgeGEXYqRqLjd06aEhpRlK21Y
-[08/Jan/2018 18:46:50] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:47:03] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:47:03] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer BSFynIgeGEXYqRqLjd06aEhpRlK21Y
-[08/Jan/2018 18:47:03] INFO [gatewayapp.views:206] Reauth user with refresh token: fkkwl2jvQ2UEY9LzUeLcUHQEeMOQWx
-[08/Jan/2018 18:47:03] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:47:03] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer FhH9RRoK3pnz5JCFHa2IpKRB0FKzND
-[08/Jan/2018 18:47:03] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer FhH9RRoK3pnz5JCFHa2IpKRB0FKzND
-[08/Jan/2018 18:47:03] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:48:37] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:48:37] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer FhH9RRoK3pnz5JCFHa2IpKRB0FKzND
-[08/Jan/2018 18:48:37] INFO [gatewayapp.views:206] Reauth user with refresh token: 1D2T4HBnwbOJdgdgdlLauH0njmihTR
-[08/Jan/2018 18:48:37] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:48:37] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer l94f6xHogs6ILQOB3t2oaVVb00yDQj
-[08/Jan/2018 18:48:37] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer l94f6xHogs6ILQOB3t2oaVVb00yDQj
-[08/Jan/2018 18:48:37] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:49:12] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:49:12] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer l94f6xHogs6ILQOB3t2oaVVb00yDQj
-[08/Jan/2018 18:49:12] INFO [gatewayapp.views:206] Reauth user with refresh token: Oj9lTpEhGgGa6IFc5iTKGIRW0u6g85
-[08/Jan/2018 18:49:12] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:49:12] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8RjEt63YRABSL10PuwfiOmIjKvudd3
-[08/Jan/2018 18:49:12] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8RjEt63YRABSL10PuwfiOmIjKvudd3
-[08/Jan/2018 18:49:12] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:51:06] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:51:06] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8RjEt63YRABSL10PuwfiOmIjKvudd3
-[08/Jan/2018 18:51:06] INFO [gatewayapp.views:206] Reauth user with refresh token: 69Jc01cxdJOI5kpLsD7umOUE1A1LNA
-[08/Jan/2018 18:51:06] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:51:06] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer qsYmLf9iEgklC83T5qxoM6VoTWIbyJ
-[08/Jan/2018 18:51:06] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer qsYmLf9iEgklC83T5qxoM6VoTWIbyJ
-[08/Jan/2018 18:51:06] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:51:08] INFO [gatewayapp.views:182] Try to redirect to user service
-[08/Jan/2018 18:51:09] INFO [gatewayapp.views:188] Try to get tokens
-[08/Jan/2018 18:51:11] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:51:11] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer NqPRUR90kdb5YyWmUYPG2hHXl0m5hG
-[08/Jan/2018 18:51:11] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer NqPRUR90kdb5YyWmUYPG2hHXl0m5hG
-[08/Jan/2018 18:51:11] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:51:14] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:51:14] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer NqPRUR90kdb5YyWmUYPG2hHXl0m5hG
-[08/Jan/2018 18:51:14] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer NqPRUR90kdb5YyWmUYPG2hHXl0m5hG
-[08/Jan/2018 18:51:14] INFO [gatewayapp.views:129] User 2 created payment
-[08/Jan/2018 18:51:14] INFO [gatewayapp.views:146] User's  group was changed
-[08/Jan/2018 18:56:56] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:56:56] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer NqPRUR90kdb5YyWmUYPG2hHXl0m5hG
-[08/Jan/2018 18:56:56] INFO [gatewayapp.views:206] Reauth user with refresh token: kLBgKCiZtVqkLspJUTU7Is54denyBL
-[08/Jan/2018 18:56:56] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:56:56] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 4DA4LaUrxMkItRc54WmitZ1foHP4t8
-[08/Jan/2018 18:56:56] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 4DA4LaUrxMkItRc54WmitZ1foHP4t8
-[08/Jan/2018 18:56:56] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:56:59] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:56:59] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 4DA4LaUrxMkItRc54WmitZ1foHP4t8
-[08/Jan/2018 18:56:59] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 4DA4LaUrxMkItRc54WmitZ1foHP4t8
-[08/Jan/2018 18:58:20] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:58:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 4DA4LaUrxMkItRc54WmitZ1foHP4t8
-[08/Jan/2018 18:58:20] INFO [gatewayapp.views:206] Reauth user with refresh token: PJjkYo8N1lwTaPRMwiVs6YSTWOIEKU
-[08/Jan/2018 18:58:20] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:58:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer sUv9Zi4OJX2U7NJ9pzkWX4RhywWpUD
-[08/Jan/2018 18:58:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer sUv9Zi4OJX2U7NJ9pzkWX4RhywWpUD
-[08/Jan/2018 18:58:20] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:58:24] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:58:24] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer sUv9Zi4OJX2U7NJ9pzkWX4RhywWpUD
-[08/Jan/2018 18:58:24] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer sUv9Zi4OJX2U7NJ9pzkWX4RhywWpUD
-[08/Jan/2018 18:58:24] INFO [gatewayapp.views:129] User 2 created payment
-[08/Jan/2018 18:58:24] INFO [gatewayapp.views:146] User's  group was changed
-[08/Jan/2018 18:58:34] INFO [gatewayapp.views:182] Try to redirect to user service
-[08/Jan/2018 18:58:35] INFO [gatewayapp.views:188] Try to get tokens
-[08/Jan/2018 18:58:37] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:58:37] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer BoxL1EC6xT4zhd7xmFP1zEZ9qJGHVn
-[08/Jan/2018 18:58:37] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer BoxL1EC6xT4zhd7xmFP1zEZ9qJGHVn
-[08/Jan/2018 18:58:37] INFO [gatewayapp.views:125] User 2 visited payment page
-[08/Jan/2018 18:58:39] INFO [gatewayapp.views:241] Checking if user is authenthicated
-[08/Jan/2018 18:58:39] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer BoxL1EC6xT4zhd7xmFP1zEZ9qJGHVn
-[08/Jan/2018 18:58:39] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer BoxL1EC6xT4zhd7xmFP1zEZ9qJGHVn
-[08/Jan/2018 18:58:39] INFO [gatewayapp.views:129] User 2 created payment
-[08/Jan/2018 18:58:40] INFO [gatewayapp.views:146] User's  group was changed
+[08/Jan/2018 19:12:14] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:14] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer WcpeMoLFNVYXF0yQ8PuiyCT7wBAxiH
+[08/Jan/2018 19:12:14] INFO [gatewayapp.views:206] Reauth user with refresh token: MSQjKUOSWcFfDj0RHMK8k9xlA2tNHy
+[08/Jan/2018 19:12:14] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:14] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:15] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:15] INFO [gatewayapp.views:88] User 2 got questions3 in test1
+[08/Jan/2018 19:12:17] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:17] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:17] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:17] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:12:20] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:20] INFO [gatewayapp.views:104] User 2 gave CORRECT answer
+[08/Jan/2018 19:12:22] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:22] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:22] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:22] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:12:24] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:24] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:24] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:24] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:12:42] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:42] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer None
+[08/Jan/2018 19:12:42] INFO [gatewayapp.views:206] Reauth user with refresh token: None
+[08/Jan/2018 19:12:43] INFO [gatewayapp.views:182] Try to redirect to user service
+[08/Jan/2018 19:12:45] INFO [gatewayapp.views:30] User  got list of tests
+[08/Jan/2018 19:12:47] INFO [gatewayapp.views:43] User  got test 1
+[08/Jan/2018 19:12:48] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:48] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer None
+[08/Jan/2018 19:12:48] INFO [gatewayapp.views:206] Reauth user with refresh token: None
+[08/Jan/2018 19:12:48] INFO [gatewayapp.views:182] Try to redirect to user service
+[08/Jan/2018 19:12:57] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:57] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Brx297mpqTj9LRlUcEQAMGP9vZcJ9I
+[08/Jan/2018 19:12:57] INFO [gatewayapp.views:206] Reauth user with refresh token: QGB7FemnTViBfJod2POVFnPkts2tnM
+[08/Jan/2018 19:12:57] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:57] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:12:57] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:12:57] INFO [gatewayapp.views:88] User 2 got questions3 in test1
+[08/Jan/2018 19:12:58] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:12:58] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:12:58] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:12:58] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:13:00] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:13:00] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:00] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:00] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:13:02] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:13:02] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:02] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:02] INFO [gatewayapp.views:104] User 2 gave CORRECT answer
+[08/Jan/2018 19:13:04] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:13:04] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:04] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:04] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:13:05] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:13:05] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:05] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:06] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:13:07] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:13:07] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8qBKtSqaEFNnNG6TwW2uxssqLcRxtY
+[08/Jan/2018 19:13:07] INFO [gatewayapp.views:206] Reauth user with refresh token: mGvjbSw9lhhQFH0ESOXUMgzSgwFfgM
+[08/Jan/2018 19:13:07] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:13:07] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer C9DrLPJKZHXwmDwBxHsQKpfMOn0t7T
+[08/Jan/2018 19:13:07] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer C9DrLPJKZHXwmDwBxHsQKpfMOn0t7T
+[08/Jan/2018 19:13:07] INFO [gatewayapp.views:88] User 2 got questions3 in test1
+[08/Jan/2018 19:15:30] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:15:30] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer C9DrLPJKZHXwmDwBxHsQKpfMOn0t7T
+[08/Jan/2018 19:15:31] INFO [gatewayapp.views:206] Reauth user with refresh token: MlA2Em2ZIiYjnhD2B28ji0qDys8bqX
+[08/Jan/2018 19:15:31] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:15:31] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer qqG85XrgBLRVZyZXsQSLaTmNRsJzkb
+[08/Jan/2018 19:15:31] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer qqG85XrgBLRVZyZXsQSLaTmNRsJzkb
+[08/Jan/2018 19:15:31] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:15:31] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:15:34] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:15:34] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer qqG85XrgBLRVZyZXsQSLaTmNRsJzkb
+[08/Jan/2018 19:15:34] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer qqG85XrgBLRVZyZXsQSLaTmNRsJzkb
+[08/Jan/2018 19:15:34] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:15:34] ERROR [gatewayapp.views:166] Creative tasks domain failed. Queing request!
+[08/Jan/2018 19:15:55] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:15:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer qqG85XrgBLRVZyZXsQSLaTmNRsJzkb
+[08/Jan/2018 19:15:55] INFO [gatewayapp.views:206] Reauth user with refresh token: CL5W0tRWKUbUIQnmSMKqlsEIHiskv1
+[08/Jan/2018 19:15:55] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:15:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer gNQwFZtE7aHAirX0vloMPrH9o61JIJ
+[08/Jan/2018 19:15:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer gNQwFZtE7aHAirX0vloMPrH9o61JIJ
+[08/Jan/2018 19:15:55] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:15:55] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:15:58] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:15:58] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer gNQwFZtE7aHAirX0vloMPrH9o61JIJ
+[08/Jan/2018 19:15:58] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer gNQwFZtE7aHAirX0vloMPrH9o61JIJ
+[08/Jan/2018 19:15:58] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:15:58] ERROR [gatewayapp.views:166] Creative tasks domain failed. Queing request!
+[08/Jan/2018 19:16:55] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:16:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer gNQwFZtE7aHAirX0vloMPrH9o61JIJ
+[08/Jan/2018 19:16:55] INFO [gatewayapp.views:206] Reauth user with refresh token: aRyFCiGLHdY0iCO8k3lzqDAwBO5jIZ
+[08/Jan/2018 19:16:56] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:16:56] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer GUDCWiGZ5eGcQnKyQ7MvtYhfnm64BF
+[08/Jan/2018 19:16:56] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer GUDCWiGZ5eGcQnKyQ7MvtYhfnm64BF
+[08/Jan/2018 19:16:56] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:16:56] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:16:59] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:16:59] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer GUDCWiGZ5eGcQnKyQ7MvtYhfnm64BF
+[08/Jan/2018 19:16:59] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer GUDCWiGZ5eGcQnKyQ7MvtYhfnm64BF
+[08/Jan/2018 19:16:59] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:16:59] INFO [gatewayapp.views:163] User 2 added creative task to creative service
+[08/Jan/2018 19:17:00] INFO [gatewayapp.views:176] User  confirmed creative task
+[08/Jan/2018 19:17:51] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:17:51] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer GUDCWiGZ5eGcQnKyQ7MvtYhfnm64BF
+[08/Jan/2018 19:17:52] INFO [gatewayapp.views:206] Reauth user with refresh token: TQMfu0brYj5wm69xf0KeF2MVWMGsBX
+[08/Jan/2018 19:17:52] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:17:52] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:17:52] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:17:52] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:17:52] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:17:54] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:17:54] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:17:54] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:17:54] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:17:54] INFO [gatewayapp.views:163] User 2 added creative task to creative service
+[08/Jan/2018 19:17:54] INFO [gatewayapp.views:176] User  confirmed creative task
+[08/Jan/2018 19:17:55] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:17:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:17:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:17:55] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:17:55] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:17:57] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:17:57] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:17:57] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:17:57] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:17:57] INFO [gatewayapp.views:163] User 2 added creative task to creative service
+[08/Jan/2018 19:17:57] INFO [gatewayapp.views:176] User  confirmed creative task
+[08/Jan/2018 19:19:22] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:19:22] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Kes898Ee3LOvBkn8xEiqGshbDYokiW
+[08/Jan/2018 19:19:22] INFO [gatewayapp.views:206] Reauth user with refresh token: cryWS2SCML5BHiupgrlYmjU2X5T68B
+[08/Jan/2018 19:19:22] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:19:22] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer LKfe12qhiEmWMmWkdp91HMsrER4qrM
+[08/Jan/2018 19:19:22] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer LKfe12qhiEmWMmWkdp91HMsrER4qrM
+[08/Jan/2018 19:19:22] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:19:22] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:19:25] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:19:25] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer LKfe12qhiEmWMmWkdp91HMsrER4qrM
+[08/Jan/2018 19:19:25] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer LKfe12qhiEmWMmWkdp91HMsrER4qrM
+[08/Jan/2018 19:19:25] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:19:25] INFO [gatewayapp.views:163] User 2 added creative task to creative service
+[08/Jan/2018 19:19:25] INFO [gatewayapp.views:176] User  confirmed creative task
+[08/Jan/2018 19:19:37] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:19:37] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer LKfe12qhiEmWMmWkdp91HMsrER4qrM
+[08/Jan/2018 19:19:37] INFO [gatewayapp.views:206] Reauth user with refresh token: MknsWrZOuOnUn3Py620BKBSRoYDPXr
+[08/Jan/2018 19:19:37] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:19:37] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 0MwBx5j7YeJOdGxFhfU3bwGpYtFCve
+[08/Jan/2018 19:19:37] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 0MwBx5j7YeJOdGxFhfU3bwGpYtFCve
+[08/Jan/2018 19:19:37] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:19:37] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:19:38] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:19:38] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 0MwBx5j7YeJOdGxFhfU3bwGpYtFCve
+[08/Jan/2018 19:19:38] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 0MwBx5j7YeJOdGxFhfU3bwGpYtFCve
+[08/Jan/2018 19:19:38] INFO [gatewayapp.views:125] User 2 visited payment page
+[08/Jan/2018 19:19:39] INFO [gatewayapp.views:30] User  got list of tests
+[08/Jan/2018 19:19:40] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:19:40] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 0MwBx5j7YeJOdGxFhfU3bwGpYtFCve
+[08/Jan/2018 19:19:40] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 0MwBx5j7YeJOdGxFhfU3bwGpYtFCve
+[08/Jan/2018 19:19:41] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:19:41] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:20:10] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:10] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 0MwBx5j7YeJOdGxFhfU3bwGpYtFCve
+[08/Jan/2018 19:20:10] INFO [gatewayapp.views:206] Reauth user with refresh token: rGoC2q9UyeuEch6u5IG66YLmFeAVJ2
+[08/Jan/2018 19:20:10] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:10] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer UJ3U06ZhYuG1YgyJtcnj3Q3KkJWZss
+[08/Jan/2018 19:20:10] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer UJ3U06ZhYuG1YgyJtcnj3Q3KkJWZss
+[08/Jan/2018 19:20:10] INFO [gatewayapp.views:125] User 2 visited payment page
+[08/Jan/2018 19:20:13] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:13] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer UJ3U06ZhYuG1YgyJtcnj3Q3KkJWZss
+[08/Jan/2018 19:20:13] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer UJ3U06ZhYuG1YgyJtcnj3Q3KkJWZss
+[08/Jan/2018 19:20:13] INFO [gatewayapp.views:129] User 2 created payment
+[08/Jan/2018 19:20:13] INFO [gatewayapp.views:146] User's  group was changed
+[08/Jan/2018 19:20:47] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:47] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer UJ3U06ZhYuG1YgyJtcnj3Q3KkJWZss
+[08/Jan/2018 19:20:47] INFO [gatewayapp.views:206] Reauth user with refresh token: Oyd5TGXAbqDkn3tITjdTSfTif2Meb0
+[08/Jan/2018 19:20:47] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:47] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer HsBdLPtl1jSSOaqd3IGoVx7a6zzBgw
+[08/Jan/2018 19:20:47] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer HsBdLPtl1jSSOaqd3IGoVx7a6zzBgw
+[08/Jan/2018 19:20:47] INFO [gatewayapp.views:125] User 2 visited payment page
+[08/Jan/2018 19:20:50] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:50] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer HsBdLPtl1jSSOaqd3IGoVx7a6zzBgw
+[08/Jan/2018 19:20:50] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer HsBdLPtl1jSSOaqd3IGoVx7a6zzBgw
+[08/Jan/2018 19:20:50] INFO [gatewayapp.views:129] User 2 created payment
+[08/Jan/2018 19:20:50] INFO [gatewayapp.views:146] User's  group was changed
+[08/Jan/2018 19:20:52] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:52] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer HsBdLPtl1jSSOaqd3IGoVx7a6zzBgw
+[08/Jan/2018 19:20:52] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer HsBdLPtl1jSSOaqd3IGoVx7a6zzBgw
+[08/Jan/2018 19:20:52] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:20:52] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:20:59] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:59] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer HsBdLPtl1jSSOaqd3IGoVx7a6zzBgw
+[08/Jan/2018 19:20:59] INFO [gatewayapp.views:206] Reauth user with refresh token: OYPDYn54S6KSL7PihLFYYHlTqJ2NQv
+[08/Jan/2018 19:20:59] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:20:59] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer ElDnNYShfmClZgxSGdgPsKEI06vEcf
+[08/Jan/2018 19:20:59] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer ElDnNYShfmClZgxSGdgPsKEI06vEcf
+[08/Jan/2018 19:20:59] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:20:59] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:21:05] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:21:05] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer ElDnNYShfmClZgxSGdgPsKEI06vEcf
+[08/Jan/2018 19:21:05] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer ElDnNYShfmClZgxSGdgPsKEI06vEcf
+[08/Jan/2018 19:21:08] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:21:08] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer ElDnNYShfmClZgxSGdgPsKEI06vEcf
+[08/Jan/2018 19:21:08] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer ElDnNYShfmClZgxSGdgPsKEI06vEcf
+[08/Jan/2018 19:21:08] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:21:08] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:21:16] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:21:16] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer ElDnNYShfmClZgxSGdgPsKEI06vEcf
+[08/Jan/2018 19:21:16] INFO [gatewayapp.views:206] Reauth user with refresh token: zJidUxiahVskF1BO0nIwBw0IxHPcIJ
+[08/Jan/2018 19:21:16] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:21:16] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer IinAcnXZ6tW9vHjGaBAiLPIxkLRpBJ
+[08/Jan/2018 19:21:16] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer IinAcnXZ6tW9vHjGaBAiLPIxkLRpBJ
+[08/Jan/2018 19:21:16] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:21:16] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:21:30] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:21:30] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer IinAcnXZ6tW9vHjGaBAiLPIxkLRpBJ
+[08/Jan/2018 19:21:30] INFO [gatewayapp.views:206] Reauth user with refresh token: DkIxvdLoGbgA9YR0QG4WAcmtdCeoHv
+[08/Jan/2018 19:21:31] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:21:31] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer B5n5Lovv8mCSVgfxxREYr7p27Bc0Ok
+[08/Jan/2018 19:21:31] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer B5n5Lovv8mCSVgfxxREYr7p27Bc0Ok
+[08/Jan/2018 19:21:31] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:21:31] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:21:36] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:21:36] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer B5n5Lovv8mCSVgfxxREYr7p27Bc0Ok
+[08/Jan/2018 19:21:36] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer B5n5Lovv8mCSVgfxxREYr7p27Bc0Ok
+[08/Jan/2018 19:21:36] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:21:36] INFO [gatewayapp.views:163] User 2 added creative task to creative service
+[08/Jan/2018 19:21:37] INFO [gatewayapp.views:176] User  confirmed creative task
+[08/Jan/2018 19:25:57] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:25:57] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer B5n5Lovv8mCSVgfxxREYr7p27Bc0Ok
+[08/Jan/2018 19:25:57] INFO [gatewayapp.views:206] Reauth user with refresh token: oXnwa7MX6QoaD55lKvABYh8gWeML39
+[08/Jan/2018 19:25:57] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:25:57] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer w8JttAAjIM8oSKjH0CXQjIczIrvWEF
+[08/Jan/2018 19:25:57] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer w8JttAAjIM8oSKjH0CXQjIczIrvWEF
+[08/Jan/2018 19:25:57] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:25:57] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:37:50] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:37:50] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer w8JttAAjIM8oSKjH0CXQjIczIrvWEF
+[08/Jan/2018 19:37:50] INFO [gatewayapp.views:206] Reauth user with refresh token: RWLokg9bm7zMFIrmrcWasWUSFnKczA
+[08/Jan/2018 19:37:50] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:37:50] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer w8JttAAjIM8oSKjH0CXQjIczIrvWEF
+[08/Jan/2018 19:37:50] INFO [gatewayapp.views:206] Reauth user with refresh token: RWLokg9bm7zMFIrmrcWasWUSFnKczA
+[08/Jan/2018 19:37:50] INFO [gatewayapp.views:125] User None visited payment page
+[08/Jan/2018 19:37:53] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:37:53] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer XFv9UfV83rPYLHGirCip1ip6xuFTqf
+[08/Jan/2018 19:37:53] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer XFv9UfV83rPYLHGirCip1ip6xuFTqf
+[08/Jan/2018 19:37:53] INFO [gatewayapp.views:129] User 2 created payment
+[08/Jan/2018 19:37:53] INFO [gatewayapp.views:146] User's  group was changed
+[08/Jan/2018 19:38:12] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:12] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer XFv9UfV83rPYLHGirCip1ip6xuFTqf
+[08/Jan/2018 19:38:12] INFO [gatewayapp.views:206] Reauth user with refresh token: pdn8q5DutoFHH2hbGb7PTEw5j2YKn3
+[08/Jan/2018 19:38:13] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:13] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer XFv9UfV83rPYLHGirCip1ip6xuFTqf
+[08/Jan/2018 19:38:13] INFO [gatewayapp.views:206] Reauth user with refresh token: pdn8q5DutoFHH2hbGb7PTEw5j2YKn3
+[08/Jan/2018 19:38:13] INFO [gatewayapp.views:125] User None visited payment page
+[08/Jan/2018 19:38:14] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:14] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:14] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:14] INFO [gatewayapp.views:129] User 2 created payment
+[08/Jan/2018 19:38:14] INFO [gatewayapp.views:146] User's  group was changed
+[08/Jan/2018 19:38:16] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:16] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:16] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:16] INFO [gatewayapp.views:125] User 2 visited payment page
+[08/Jan/2018 19:38:19] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:19] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:19] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:19] INFO [gatewayapp.views:129] User 2 created payment
+[08/Jan/2018 19:38:19] INFO [gatewayapp.views:146] User's  group was changed
+[08/Jan/2018 19:38:20] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:20] INFO [gatewayapp.views:125] User 2 visited payment page
+[08/Jan/2018 19:38:23] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:23] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:23] INFO [gatewayapp.views:206] Reauth user with refresh token: knFR1mqgyeqbwmhPRR2Gs1wKbK6P4Y
+[08/Jan/2018 19:38:23] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:23] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nKy7cNH0MuD6YgjNH6ZWTFnXpzJOIo
+[08/Jan/2018 19:38:23] INFO [gatewayapp.views:206] Reauth user with refresh token: knFR1mqgyeqbwmhPRR2Gs1wKbK6P4Y
+[08/Jan/2018 19:38:23] INFO [gatewayapp.views:129] User None created payment
+[08/Jan/2018 19:38:23] INFO [gatewayapp.views:146] User's  group was changed
+[08/Jan/2018 19:38:25] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:25] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nJ5WUEMB1Y5vgpZuL1UQ7zpVyHH9pt
+[08/Jan/2018 19:38:25] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nJ5WUEMB1Y5vgpZuL1UQ7zpVyHH9pt
+[08/Jan/2018 19:38:25] INFO [gatewayapp.views:125] User 2 visited payment page
+[08/Jan/2018 19:38:27] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:38:27] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nJ5WUEMB1Y5vgpZuL1UQ7zpVyHH9pt
+[08/Jan/2018 19:38:27] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nJ5WUEMB1Y5vgpZuL1UQ7zpVyHH9pt
+[08/Jan/2018 19:38:27] INFO [gatewayapp.views:129] User 2 created payment
+[08/Jan/2018 19:38:27] INFO [gatewayapp.views:146] User's  group was changed
+[08/Jan/2018 19:41:13] INFO [gatewayapp.views:30] User  got list of tests
+[08/Jan/2018 19:41:14] INFO [gatewayapp.views:43] User  got test 1
+[08/Jan/2018 19:41:15] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:15] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer nJ5WUEMB1Y5vgpZuL1UQ7zpVyHH9pt
+[08/Jan/2018 19:41:15] INFO [gatewayapp.views:206] Reauth user with refresh token: pNvzLZHbXHQCx1kxOVwuqjlAsevE5w
+[08/Jan/2018 19:41:15] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:15] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:15] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:15] INFO [gatewayapp.views:57] User 2 got questions
+[08/Jan/2018 19:41:15] INFO [gatewayapp.views:77] User 2 got replied questions
+[08/Jan/2018 19:41:16] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:16] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:16] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:16] INFO [gatewayapp.views:88] User 2 got questions4 in test1
+[08/Jan/2018 19:41:20] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:20] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:20] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:41:23] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:23] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:23] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:23] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:41:24] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:24] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:24] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:24] INFO [gatewayapp.views:104] User 2 gave CORRECT answer
+[08/Jan/2018 19:41:27] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:27] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer SAAlBNDqHMwtQJMrh9O5LXXIaGhjAY
+[08/Jan/2018 19:41:27] INFO [gatewayapp.views:206] Reauth user with refresh token: XSBES4oAZtNIJyv643p97bPbWf8w0H
+[08/Jan/2018 19:41:27] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:27] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:27] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:27] INFO [gatewayapp.views:88] User 2 got questions4 in test1
+[08/Jan/2018 19:41:29] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:29] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:29] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:29] INFO [gatewayapp.views:106] User 2 gave WRONG answer
+[08/Jan/2018 19:41:31] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:31] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:31] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:31] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:41:31] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:41:36] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:36] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:36] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:36] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:41:36] INFO [gatewayapp.views:163] User 2 added creative task to creative service
+[08/Jan/2018 19:41:37] INFO [gatewayapp.views:176] User  confirmed creative task
+[08/Jan/2018 19:41:39] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:39] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer 8K23Ve4mC07WQk8ejdE89kACePTVRP
+[08/Jan/2018 19:41:39] INFO [gatewayapp.views:206] Reauth user with refresh token: J17Kt04EDFoALqB2iv4LAgWaEMeVUb
+[08/Jan/2018 19:41:40] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:40] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Px7NKKAzJCjGMYQp2a6kCY5kZE415O
+[08/Jan/2018 19:41:40] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Px7NKKAzJCjGMYQp2a6kCY5kZE415O
+[08/Jan/2018 19:41:40] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:41:40] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:41:47] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:47] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Px7NKKAzJCjGMYQp2a6kCY5kZE415O
+[08/Jan/2018 19:41:47] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Px7NKKAzJCjGMYQp2a6kCY5kZE415O
+[08/Jan/2018 19:41:47] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:41:48] INFO [gatewayapp.views:163] User 2 added creative task to creative service
+[08/Jan/2018 19:41:48] INFO [gatewayapp.views:176] User  confirmed creative task
+[08/Jan/2018 19:41:49] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:49] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Px7NKKAzJCjGMYQp2a6kCY5kZE415O
+[08/Jan/2018 19:41:49] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Px7NKKAzJCjGMYQp2a6kCY5kZE415O
+[08/Jan/2018 19:41:49] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:41:49] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:41:55] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer Px7NKKAzJCjGMYQp2a6kCY5kZE415O
+[08/Jan/2018 19:41:55] INFO [gatewayapp.views:206] Reauth user with refresh token: NQf8Nv4nQRUCIwFkylOYgRcy5eXD4c
+[08/Jan/2018 19:41:55] INFO [gatewayapp.views:241] Checking if user is authenthicated
+[08/Jan/2018 19:41:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer lE0UkcbmB2gkXzXpljoQwV3AYEo6p6
+[08/Jan/2018 19:41:55] INFO [gatewayapp.views:221] Checking if user has rights with: Bearer lE0UkcbmB2gkXzXpljoQwV3AYEo6p6
+[08/Jan/2018 19:41:55] INFO [gatewayapp.views:152] User  went to creative task
+[08/Jan/2018 19:41:55] INFO [gatewayapp.views:155] User 2 visited creative task page
+[08/Jan/2018 19:41:58] INFO [gatewayapp.views:30] User  got list of tests
