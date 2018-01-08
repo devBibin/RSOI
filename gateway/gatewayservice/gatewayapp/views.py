@@ -213,3 +213,27 @@ def reauth(request):
         ret_data = {'token': content['access_token'], 'refresh': content['refresh_token']}
         return HttpResponse(status=200, content=json.dumps(ret_data))
     return resp
+
+def has_access(request):
+    header = {'Authorization': str(request.META.get('HTTP_AUTHORIZATION'))}
+    resp = requests.get(USER_DOMAIN + '/users/check_rights/', headers=header)
+    if resp.status_code == 200:
+        return True
+    else:
+        return False
+
+
+def has_admin_access(request):
+    header = {'Authorization': str(request.META.get('HTTP_AUTHORIZATION'))}
+    resp = requests.get(USER_DOMAIN + '/users/check_admin_rights/', headers=header)
+    if resp.status_code == 200:
+        return True
+    else:
+        return False
+
+
+def is_auth(request):
+    if has_access(request):
+        return HttpResponse(status=200)
+    else:
+        return HttpResponse(status=401)
