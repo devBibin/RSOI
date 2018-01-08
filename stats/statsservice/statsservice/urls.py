@@ -18,7 +18,7 @@ from django.contrib import admin
 from statsapp import views as gv
 
 urlpatterns = [
-    url(r'^admin/$', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
     url(r'^stats/save_answer/$', gv.save_answer_info),
     url(r'^stats/get_stats/user/(?P<user_id>[0-9]+)/$', gv.get_stats_by_questions),
     url(r'^stats/save_creative/$', gv.save_creative_task_info),

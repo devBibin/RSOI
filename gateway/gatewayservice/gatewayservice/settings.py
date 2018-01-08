@@ -177,4 +177,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_URL='/users/'
+LOGIN_URL='/users/auth/'

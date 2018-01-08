@@ -1,0 +1,30 @@
+{% extends 'renderapp/base.html' %}
+
+{% block content %}
+	{% if data.data %}
+
+<div class="list-group">
+<h2>List of tests</h2>
+<ol>
+	    {% for t in data.data %}
+	        <li><a class="list-group-item list-group-item-info" href="/tests/{{t.id}}/"><p>{{ t.theme }}</p></a></li>
+	    {% endfor %}
+</ol>
+	{% else %}
+	<h2>List of tests</h2>
+	    <p>No tests</p>
+	{% endif %}
+	
+	<div class="container">
+  <ul class="pagination">
+  	{% for i in "x"|rjust:data.pages_count %}
+  		{% if forloop.counter == data.page %}
+    		<li class="active"><a href="/tests/?page={{forloop.counter}}&size={{data.size}}">{{forloop.counter }}</a></li>
+    	{%else%}
+    		<li><a href="/tests/?page={{forloop.counter}}&size={{data.size}}">{{forloop.counter }}</a></li>
+    	{%endif%}
+    {%endfor%}
+  </ul>
+</div>
+{% endblock %}
+

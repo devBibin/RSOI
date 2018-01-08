@@ -1,0 +1,14 @@
+{% extends 'renderapp/base.html' %}
+{% block content %}
+<div class="well">  
+{% if data.questions %}
+  <ul>
+    {% for q in data.questions %}
+  <li><a href="/tests/{{data.id}}/questions/{{q.id}}">{{ q.question_text}}{{ q.replied}}</a></li>
+    {% endfor %}
+   </ul>
+{% else %}
+    <p>No Questions.</p>
+{% endif %}
+</div>
+{% endblock %}

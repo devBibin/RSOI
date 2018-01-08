@@ -1,187 +1,205 @@
-[06/Dec/2017 18:20:17] ERROR [gatewayapp.views:74] Degradation of functionality because of failing stats service
-[06/Dec/2017 18:21:03] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 18:21:03] INFO [gatewayapp.views:52] User john got questions
-[06/Dec/2017 18:21:03] INFO [gatewayapp.views:72] User john got replied questions
-[06/Dec/2017 18:21:26] INFO [gatewayapp.views:82] User john got questions5 in test1
-[06/Dec/2017 18:21:29] INFO [gatewayapp.views:82] User john got questions5 in test1
-[06/Dec/2017 18:21:32] INFO [gatewayapp.views:82] User john got questions5 in test1
-[06/Dec/2017 18:21:34] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 18:21:34] INFO [gatewayapp.views:52] User john got questions
-[06/Dec/2017 18:21:34] INFO [gatewayapp.views:72] User john got replied questions
-[06/Dec/2017 18:24:00] INFO [gatewayapp.views:131] User john visited payment page
-[06/Dec/2017 18:24:37] INFO [gatewayapp.views:135] User john created payment
-[06/Dec/2017 18:24:38] INFO [gatewayapp.views:155] User's john group was changed
-[06/Dec/2017 18:25:39] INFO [gatewayapp.views:131] User john visited payment page
-[06/Dec/2017 18:25:43] INFO [gatewayapp.views:135] User john created payment
-[06/Dec/2017 18:25:43] ERROR [gatewayapp.views:142] Billing domain failed
-[06/Dec/2017 18:26:15] INFO [gatewayapp.views:162] User john visited creative task page
-[06/Dec/2017 18:26:48] ERROR [gatewayapp.views:172] Creative tasks domain failed
-[06/Dec/2017 18:26:48] INFO [gatewayapp.views:173] User john added creative task to creative service
-[06/Dec/2017 18:46:04] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 18:49:28] INFO [gatewayapp.views:162] User john visited creative task page
-[06/Dec/2017 18:49:30] INFO [gatewayapp.views:171] User john added creative task to creative service
-[06/Dec/2017 18:49:30] INFO [gatewayapp.views:183] User john confirmed creative task
-[06/Dec/2017 18:49:48] INFO [gatewayapp.views:162] User john visited creative task page
-[06/Dec/2017 18:49:50] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 18:57:57] INFO [gatewayapp.views:171] User john added creative task to creative service
-[06/Dec/2017 18:57:57] INFO [gatewayapp.views:183] User john confirmed creative task
-[06/Dec/2017 18:58:33] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 18:59:27] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 19:08:56] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 19:30:12] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 19:34:49] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 19:38:58] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 19:45:11] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 19:47:32] INFO [gatewayapp.views:135] User Valentin created payment
-[06/Dec/2017 19:47:32] INFO [gatewayapp.views:155] User's Valentin group was changed
-[06/Dec/2017 19:47:32] INFO [gatewayapp.views:171] User Valentin added creative task to creative service
-[06/Dec/2017 19:47:32] INFO [gatewayapp.views:183] User Valentin confirmed creative task
-[06/Dec/2017 19:47:33] INFO [gatewayapp.views:49] User Valentin got list of questions in test1
-[06/Dec/2017 19:47:33] INFO [gatewayapp.views:52] User Valentin got questions
-[06/Dec/2017 19:47:33] INFO [gatewayapp.views:72] User Valentin got replied questions
-[06/Dec/2017 19:47:33] INFO [gatewayapp.views:37] User Valentin got tests 1
-[06/Dec/2017 19:47:33] INFO [gatewayapp.views:25] User  got list of tests
-[06/Dec/2017 19:48:37] INFO [gatewayapp.views:135] User Valentin created payment
-[06/Dec/2017 19:48:37] INFO [gatewayapp.views:155] User's Valentin group was changed
-[06/Dec/2017 19:48:37] INFO [gatewayapp.views:171] User Valentin added creative task to creative service
-[06/Dec/2017 19:48:37] INFO [gatewayapp.views:183] User Valentin confirmed creative task
-[06/Dec/2017 19:48:38] INFO [gatewayapp.views:49] User Valentin got list of questions in test1
-[06/Dec/2017 19:48:38] INFO [gatewayapp.views:52] User Valentin got questions
-[06/Dec/2017 19:48:38] INFO [gatewayapp.views:72] User Valentin got replied questions
-[06/Dec/2017 19:48:38] INFO [gatewayapp.views:37] User Valentin got tests 1
-[06/Dec/2017 19:48:38] INFO [gatewayapp.views:25] User  got list of tests
-[06/Dec/2017 20:17:32] INFO [gatewayapp.views:162] User john visited creative task page
-[06/Dec/2017 20:31:55] INFO [gatewayapp.views:171] User john added creative task to creative service
-[06/Dec/2017 20:31:55] INFO [gatewayapp.views:183] User john confirmed creative task
-[06/Dec/2017 20:32:30] ERROR [gatewayapp.views:174] Creative tasks domain failed. Queing request!
-[06/Dec/2017 20:33:31] INFO [gatewayapp.views:171] User john added creative task to creative service
-[06/Dec/2017 20:33:31] INFO [gatewayapp.views:183] User john confirmed creative task
-[06/Dec/2017 20:37:25] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:37:25] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 20:39:11] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:39:11] INFO [gatewayapp.views:172] User john added creative task to creative service
-[06/Dec/2017 20:39:11] INFO [gatewayapp.views:184] User john confirmed creative task
-[06/Dec/2017 20:39:24] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:39:24] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 20:40:15] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:40:15] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 20:40:27] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:40:27] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 20:41:42] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:42:54] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:42:54] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 20:51:28] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:51:45] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:51:45] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 20:56:37] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:56:37] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 20:58:57] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:58:57] INFO [gatewayapp.views:163] User john visited creative task page
-[06/Dec/2017 20:59:04] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 20:59:04] INFO [gatewayapp.views:172] User john added creative task to creative service
-[06/Dec/2017 20:59:04] INFO [gatewayapp.views:184] User john confirmed creative task
-[06/Dec/2017 20:59:23] INFO [gatewayapp.views:131] User john visited payment page
-[06/Dec/2017 20:59:27] INFO [gatewayapp.views:135] User john created payment
-[06/Dec/2017 20:59:27] INFO [gatewayapp.views:155] User's john group was changed
-[06/Dec/2017 21:03:04] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:03:04] INFO [gatewayapp.views:163] User john visited creative task page
-[06/Dec/2017 21:03:07] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:03:07] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:07:51] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:07:51] INFO [gatewayapp.views:163] User john visited creative task page
-[06/Dec/2017 21:08:02] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:08:02] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:09:13] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:09:13] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:11:06] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:11:06] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:11:34] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:11:34] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:12:01] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:12:01] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:12:31] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:12:31] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:13:39] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:13:39] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:14:15] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:14:15] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:15:40] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:15:40] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:16:21] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:16:21] INFO [gatewayapp.views:163] User john visited creative task page
-[06/Dec/2017 21:16:57] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:17:00] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:17:05] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:17:14] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 21:17:14] INFO [gatewayapp.views:52] User john got questions
-[06/Dec/2017 21:17:14] INFO [gatewayapp.views:72] User john got replied questions
-[06/Dec/2017 21:17:18] INFO [gatewayapp.views:82] User john got questions4 in test1
-[06/Dec/2017 21:20:40] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:20:40] INFO [gatewayapp.views:163] User john visited creative task page
-[06/Dec/2017 21:20:44] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:20:44] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:20:46] INFO [gatewayapp.views:161] User  went to creative task
-[06/Dec/2017 21:20:46] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:20:51] INFO [gatewayapp.views:161] User  went to creative task
-[06/Dec/2017 21:20:51] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:20:56] INFO [gatewayapp.views:161] User  went to creative task
-[06/Dec/2017 21:20:56] ERROR [gatewayapp.views:175] Creative tasks domain failed. Queing request!
-[06/Dec/2017 21:21:01] INFO [gatewayapp.views:161] User  went to creative task
-[06/Dec/2017 21:21:01] INFO [gatewayapp.views:172] User  added creative task to creative service
-[06/Dec/2017 21:21:01] INFO [gatewayapp.views:184] User  confirmed creative task
-[06/Dec/2017 21:32:01] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:32:08] INFO [gatewayapp.views:37] User john got tests 1
-[06/Dec/2017 21:32:16] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 21:32:16] INFO [gatewayapp.views:52] User john got questions
-[06/Dec/2017 21:32:16] INFO [gatewayapp.views:72] User john got replied questions
-[06/Dec/2017 21:32:54] INFO [gatewayapp.views:82] User john got questions4 in test1
-[06/Dec/2017 21:33:00] INFO [gatewayapp.views:82] User john got questions4 in test1
-[06/Dec/2017 21:33:02] INFO [gatewayapp.views:82] User john got questions4 in test1
-[06/Dec/2017 21:33:05] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 21:33:05] INFO [gatewayapp.views:52] User john got questions
-[06/Dec/2017 21:33:05] INFO [gatewayapp.views:72] User john got replied questions
-[06/Dec/2017 21:33:23] INFO [gatewayapp.views:82] User john got questions1 in test1
-[06/Dec/2017 21:34:29] INFO [gatewayapp.views:131] User john visited payment page
-[06/Dec/2017 21:35:10] INFO [gatewayapp.views:161] User john went to creative task
-[06/Dec/2017 21:35:10] INFO [gatewayapp.views:163] User john visited creative task page
-[06/Dec/2017 21:35:59] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:36:11] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:36:19] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:36:22] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:36:30] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:36:39] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 21:38:16] INFO [gatewayapp.views:135] User Valentin created payment
-[06/Dec/2017 21:38:16] INFO [gatewayapp.views:155] User's Valentin group was changed
-[06/Dec/2017 21:38:17] INFO [gatewayapp.views:161] User Valentin went to creative task
-[06/Dec/2017 21:38:17] INFO [gatewayapp.views:172] User Valentin added creative task to creative service
-[06/Dec/2017 21:38:17] INFO [gatewayapp.views:184] User Valentin confirmed creative task
-[06/Dec/2017 21:38:17] INFO [gatewayapp.views:49] User Valentin got list of questions in test1
-[06/Dec/2017 21:38:17] INFO [gatewayapp.views:52] User Valentin got questions
-[06/Dec/2017 21:38:17] INFO [gatewayapp.views:72] User Valentin got replied questions
-[06/Dec/2017 21:38:17] INFO [gatewayapp.views:37] User Valentin got tests 1
-[06/Dec/2017 21:38:17] INFO [gatewayapp.views:25] User  got list of tests
-[06/Dec/2017 22:59:17] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 22:59:26] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 23:00:16] INFO [gatewayapp.views:37] User john got tests 1
-[06/Dec/2017 23:00:18] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 23:00:19] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 23:00:20] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 23:00:20] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 23:00:32] INFO [gatewayapp.views:82] User john got questions2 in test1
-[06/Dec/2017 23:13:15] INFO [gatewayapp.views:37] User john got tests 1
-[06/Dec/2017 23:13:20] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 23:13:24] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 23:13:39] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 23:13:41] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 23:13:45] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 23:13:51] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 23:13:53] INFO [gatewayapp.views:25] User john got list of tests
-[06/Dec/2017 23:14:30] INFO [gatewayapp.views:37] User john got tests 8
-[06/Dec/2017 23:14:31] INFO [gatewayapp.views:49] User john got list of questions in test8
-[06/Dec/2017 23:14:31] INFO [gatewayapp.views:52] User john got questions
-[06/Dec/2017 23:14:31] ERROR [gatewayapp.views:74] Degradation of functionality because of failing stats service
-[06/Dec/2017 23:14:38] INFO [gatewayapp.views:37] User john got tests 1
-[06/Dec/2017 23:14:39] INFO [gatewayapp.views:49] User john got list of questions in test1
-[06/Dec/2017 23:14:39] INFO [gatewayapp.views:52] User john got questions
-[06/Dec/2017 23:14:39] ERROR [gatewayapp.views:74] Degradation of functionality because of failing stats service
-[06/Dec/2017 23:14:46] INFO [gatewayapp.views:82] User john got questions3 in test1
+[25/Dec/2017 16:43:47] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 16:43:47] INFO [gatewayapp.views:180] User john added creative task to creative service
+[25/Dec/2017 16:43:47] INFO [gatewayapp.views:193] User john confirmed creative task
+[25/Dec/2017 16:44:25] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 16:44:27] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 16:44:27] INFO [gatewayapp.views:171] User john visited creative task page
+[25/Dec/2017 16:44:31] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 16:44:32] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 16:44:36] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 16:44:37] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 16:45:37] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 16:45:38] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 16:46:02] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 16:46:02] INFO [gatewayapp.views:171] User john visited creative task page
+[25/Dec/2017 20:08:36] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:08:40] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 20:08:42] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 20:08:42] INFO [gatewayapp.views:171] User john visited creative task page
+[25/Dec/2017 20:08:46] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:08:50] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:08:52] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:08:53] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:09:01] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:09:08] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:09:09] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:09:15] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:09:24] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:09:31] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 20:09:39] INFO [gatewayapp.views:142] User john created payment
+[25/Dec/2017 20:09:39] INFO [gatewayapp.views:162] User's john group was changed
+[25/Dec/2017 20:09:59] INFO [gatewayapp.views:142] User john created payment
+[25/Dec/2017 20:09:59] ERROR [gatewayapp.views:149] Billing domain failed
+[25/Dec/2017 20:10:10] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 20:10:10] INFO [gatewayapp.views:171] User john visited creative task page
+[25/Dec/2017 20:10:52] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 20:10:52] INFO [gatewayapp.views:180] User john added creative task to creative service
+[25/Dec/2017 20:10:52] INFO [gatewayapp.views:193] User john confirmed creative task
+[25/Dec/2017 20:11:01] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 20:11:01] INFO [gatewayapp.views:171] User john visited creative task page
+[25/Dec/2017 20:11:06] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 20:11:06] ERROR [gatewayapp.views:183] Creative tasks domain failed. Queing request!
+[25/Dec/2017 20:11:21] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 20:11:21] INFO [gatewayapp.views:171] User john visited creative task page
+[25/Dec/2017 20:11:25] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:11:26] INFO [gatewayapp.views:40] User john got tests 1
+[25/Dec/2017 20:11:29] INFO [gatewayapp.views:52] User john got list of questions in test1
+[25/Dec/2017 20:11:29] INFO [gatewayapp.views:55] User john got questions
+[25/Dec/2017 20:11:29] INFO [gatewayapp.views:75] User john got replied questions
+[25/Dec/2017 20:11:32] INFO [gatewayapp.views:85] User john got questions2 in test1
+[25/Dec/2017 20:11:36] INFO [gatewayapp.views:85] User john got questions2 in test1
+[25/Dec/2017 20:11:39] INFO [gatewayapp.views:85] User john got questions2 in test1
+[25/Dec/2017 20:11:51] INFO [gatewayapp.views:126] User authnticating
+[25/Dec/2017 20:13:01] INFO [gatewayapp.views:28] User john got list of tests
+[25/Dec/2017 20:13:02] INFO [gatewayapp.views:40] User john got tests 1
+[25/Dec/2017 20:13:04] INFO [gatewayapp.views:52] User john got list of questions in test1
+[25/Dec/2017 20:13:04] INFO [gatewayapp.views:55] User john got questions
+[25/Dec/2017 20:13:04] INFO [gatewayapp.views:75] User john got replied questions
+[25/Dec/2017 20:13:06] INFO [gatewayapp.views:85] User john got questions3 in test1
+[25/Dec/2017 20:13:42] INFO [gatewayapp.views:85] User john got questions3 in test1
+[25/Dec/2017 20:13:45] INFO [gatewayapp.views:85] User john got questions3 in test1
+[25/Dec/2017 20:14:23] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 20:15:12] INFO [gatewayapp.views:138] User john visited payment page
+[25/Dec/2017 20:15:15] INFO [gatewayapp.views:169] User john went to creative task
+[25/Dec/2017 20:15:15] INFO [gatewayapp.views:171] User john visited creative task page
+[07/Jan/2018 16:43:35] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:44:33] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:45:10] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:45:25] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:46:19] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:46:50] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:47:52] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:48:06] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:49:06] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:49:40] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:49:50] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:50:11] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 16:51:06] INFO [gatewayapp.views:28] User  got list of tests
+[07/Jan/2018 17:01:03] ERROR [gatewayapp.views:36] Service testing failed
+[07/Jan/2018 17:05:45] ERROR [gatewayapp.views:36] Service testing failed
+[07/Jan/2018 17:07:28] ERROR [gatewayapp.views:34] Service testing failed
+[07/Jan/2018 17:10:13] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:10:13] ERROR [gatewayapp.views:34] Service testing failed
+[07/Jan/2018 17:11:38] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:11:38] ERROR [gatewayapp.views:34] Service testing failed
+[07/Jan/2018 17:11:39] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:11:39] ERROR [gatewayapp.views:34] Service testing failed
+[07/Jan/2018 17:11:40] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:11:40] ERROR [gatewayapp.views:34] Service testing failed
+[07/Jan/2018 17:11:44] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:11:44] ERROR [gatewayapp.views:34] Service testing failed
+[07/Jan/2018 17:13:08] INFO [gatewayapp.views:29] http://localhost:8081/tests/
+[07/Jan/2018 17:13:08] INFO [gatewayapp.views:31] User  got list of tests
+[07/Jan/2018 17:13:08] ERROR [gatewayapp.views:35] Service testing failed
+[07/Jan/2018 17:13:43] INFO [gatewayapp.views:29] http://localhost:8081/tests/
+[07/Jan/2018 17:13:43] INFO [gatewayapp.views:31] User  got list of tests
+[07/Jan/2018 17:14:25] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:14:29] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:14:34] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:14:44] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:14:50] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:14:56] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:15:01] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:18:06] INFO [gatewayapp.views:43] User  got test 3
+[07/Jan/2018 17:18:12] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:18:13] INFO [gatewayapp.views:43] User  got test 1
+[07/Jan/2018 17:18:15] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 17:18:16] INFO [gatewayapp.views:43] User  got test 2
+[07/Jan/2018 21:28:23] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:28:24] INFO [gatewayapp.views:43] User  got test 1
+[07/Jan/2018 21:31:28] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:31:29] INFO [gatewayapp.views:43] User  got test 1
+[07/Jan/2018 21:32:12] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:32:13] INFO [gatewayapp.views:43] User  got test 1
+[07/Jan/2018 21:33:25] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:33:51] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:36:42] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:36:43] INFO [gatewayapp.views:43] User  got test 1
+[07/Jan/2018 21:36:51] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:36:52] INFO [gatewayapp.views:43] User  got test 2
+[07/Jan/2018 21:47:06] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:47:08] INFO [gatewayapp.views:43] User  got test 1
+[07/Jan/2018 21:47:29] INFO [gatewayapp.views:30] User  got list of tests
+[07/Jan/2018 21:47:29] INFO [gatewayapp.views:43] User  got test 1
+[07/Jan/2018 21:59:22] INFO [gatewayapp.views:52] User  got questions
+[07/Jan/2018 21:59:22] ERROR [gatewayapp.views:74] Degradation of functionality because of failing stats service
+[07/Jan/2018 21:59:26] INFO [gatewayapp.views:27] User  got list of tests
+[07/Jan/2018 21:59:28] INFO [gatewayapp.views:40] User  got test 1
+[07/Jan/2018 21:59:29] INFO [gatewayapp.views:52] User  got questions
+[07/Jan/2018 21:59:29] ERROR [gatewayapp.views:74] Degradation of functionality because of failing stats service
+[07/Jan/2018 23:52:48] INFO [gatewayapp.views:27] User  got list of tests
+[07/Jan/2018 23:52:49] INFO [gatewayapp.views:40] User  got test 1
+[07/Jan/2018 23:52:53] INFO [gatewayapp.views:52] User  got questions
+[07/Jan/2018 23:52:53] ERROR [gatewayapp.views:74] Degradation of functionality because of failing stats service
+[07/Jan/2018 23:52:56] INFO [gatewayapp.views:81] User  got questions6 in test1
+[07/Jan/2018 23:52:59] INFO [gatewayapp.views:52] User  got questions
+[07/Jan/2018 23:52:59] ERROR [gatewayapp.views:74] Degradation of functionality because of failing stats service
+[07/Jan/2018 23:52:59] INFO [gatewayapp.views:81] User  got questions3 in test1
+[07/Jan/2018 23:53:02] INFO [gatewayapp.views:81] User  got questions3 in test1
+[07/Jan/2018 23:56:15] INFO [gatewayapp.views:84] User  got questions3 in test1
+[07/Jan/2018 23:59:37] INFO [gatewayapp.views:84] User  got questions3 in test1
+[08/Jan/2018 00:02:38] INFO [gatewayapp.views:28] User  got list of tests
+[08/Jan/2018 00:02:40] INFO [gatewayapp.views:42] User  got test 1
+[08/Jan/2018 00:02:41] INFO [gatewayapp.views:55] User  got questions
+[08/Jan/2018 00:02:41] ERROR [gatewayapp.views:77] Degradation of functionality because of failing stats service
+[08/Jan/2018 00:02:44] INFO [gatewayapp.views:55] User  got questions
+[08/Jan/2018 00:02:44] ERROR [gatewayapp.views:77] Degradation of functionality because of failing stats service
+[08/Jan/2018 00:02:46] INFO [gatewayapp.views:84] User  got questions2 in test1
+[08/Jan/2018 00:04:55] INFO [gatewayapp.views:84] User  got questions2 in test1
+[08/Jan/2018 00:06:17] INFO [gatewayapp.views:84] User  got questions2 in test1
+[08/Jan/2018 00:06:19] INFO [gatewayapp.views:84] User  got questions2 in test1
+[08/Jan/2018 00:06:21] INFO [gatewayapp.views:84] User  got questions2 in test1
+[08/Jan/2018 00:06:24] INFO [gatewayapp.views:84] User  got questions2 in test1
+[08/Jan/2018 00:06:29] INFO [gatewayapp.views:28] User  got list of tests
+[08/Jan/2018 00:06:30] INFO [gatewayapp.views:42] User  got test 1
+[08/Jan/2018 00:06:31] INFO [gatewayapp.views:55] User  got questions
+[08/Jan/2018 00:06:31] ERROR [gatewayapp.views:77] Degradation of functionality because of failing stats service
+[08/Jan/2018 00:08:22] INFO [gatewayapp.views:55] User  got questions
+[08/Jan/2018 00:08:22] ERROR [gatewayapp.views:77] Degradation of functionality because of failing stats service
+[08/Jan/2018 00:50:10] INFO [gatewayapp.views:27] User  got list of tests
+[08/Jan/2018 00:50:11] INFO [gatewayapp.views:40] User  got test 1
+[08/Jan/2018 00:56:52] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 00:59:53] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:00:02] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:00:44] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:14:49] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:22:22] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:27:33] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:29:30] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:30:40] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:34:01] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:38:45] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:39:38] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:40:20] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:40:51] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:43:58] INFO [gatewayapp.views:27] User  got list of tests
+[08/Jan/2018 01:44:05] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:52:02] INFO [gatewayapp.views:27] User  got list of tests
+[08/Jan/2018 01:52:08] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:54:20] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 01:58:21] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 02:02:51] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 02:08:24] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 02:09:11] INFO [gatewayapp.views:27] User  got list of tests
+[08/Jan/2018 02:09:12] INFO [gatewayapp.views:40] User  got test 1
+[08/Jan/2018 02:10:18] INFO [gatewayapp.views:178] Try to redirect to user service
+[08/Jan/2018 12:38:47] INFO [gatewayapp.views:180] Try to redirect to user service
+[08/Jan/2018 12:38:56] INFO [gatewayapp.views:185] Try to get tokens
+[08/Jan/2018 12:40:50] INFO [gatewayapp.views:185] Try to get tokens
+[08/Jan/2018 12:41:47] INFO [gatewayapp.views:185] Try to get tokens
+[08/Jan/2018 12:58:01] INFO [gatewayapp.views:181] Try to redirect to user service
+[08/Jan/2018 12:58:02] INFO [gatewayapp.views:186] Try to get tokens
+[08/Jan/2018 13:00:12] INFO [gatewayapp.views:181] Try to redirect to user service
+[08/Jan/2018 13:00:13] INFO [gatewayapp.views:186] Try to get tokens
+[08/Jan/2018 13:01:08] INFO [gatewayapp.views:181] Try to redirect to user service
+[08/Jan/2018 13:01:09] INFO [gatewayapp.views:186] Try to get tokens
+[08/Jan/2018 13:01:41] INFO [gatewayapp.views:186] Try to get tokens
+[08/Jan/2018 13:02:16] INFO [gatewayapp.views:181] Try to redirect to user service
+[08/Jan/2018 13:02:31] INFO [gatewayapp.views:186] Try to get tokens
+[08/Jan/2018 13:03:00] INFO [gatewayapp.views:181] Try to redirect to user service
+[08/Jan/2018 13:03:02] INFO [gatewayapp.views:186] Try to get tokens
+[08/Jan/2018 13:03:13] INFO [gatewayapp.views:181] Try to redirect to user service
+[08/Jan/2018 13:04:17] INFO [gatewayapp.views:181] Try to redirect to user service
+[08/Jan/2018 13:04:31] INFO [gatewayapp.views:186] Try to get tokens
+[08/Jan/2018 13:08:02] INFO [gatewayapp.views:184] Try to redirect to user service
+[08/Jan/2018 13:08:05] INFO [gatewayapp.views:189] Try to get tokens

@@ -1,6 +1,10 @@
-{% extends "gatewayapp/base.html" %}
+{% extends 'gatewayapp/base.html' %}
 {% block content %}
-{{data.theme}}<br>
-{{data.intro}}<br>
-<a href="/tests/{{data.test_id}}/questions">Go to questions</a><br>
+<div class="panel panel-default">
+  <div class="panel-heading">{{data.theme}}</div>
+  <div class="panel-body">{{data.intro}}<br>
+  <button type="button" class="btn"><a href="/tests/{{data.test_id}}/questions">Let's start!</a></button>
+ </div>
+</div>
+
 {% endblock %}

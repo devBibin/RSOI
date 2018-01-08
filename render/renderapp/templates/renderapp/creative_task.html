@@ -1,0 +1,13 @@
+{% extends 'renderapp/base.html' %}
+{% block content %}
+<div class="container">
+  <h2>Творческое задание</h2>
+  <form action="/creative/" method="post">
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="text">Your creative task:</label>
+      <textarea type="text" class="form-control" rows=5 id="creative_task" placeholder="Enter your text" name="creative_task"></textarea></textarea>
+     <input  class="btn btn-secondary" type="submit" value="Confirm!" />
+  </form>
+</div>
+{% endblock %}

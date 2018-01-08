@@ -1,0 +1,24 @@
+.body {    
+    font-family: Times New Roman;
+}
+.bg-1 { 
+    background-color: #000000; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar {    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0px;
+    margin-bottom: 5;
+    font-family: Times New Roman;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+.p {
+    font-family: Times New Roman;
+    font-size: 12px;
+}
+
+}

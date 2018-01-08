@@ -1,12 +1,19 @@
-{% extends "gatewayapp/base.html" %}
+{% extends 'gatewayapp/base.html' %}
 {% block content %}
-	<form action="/users/billing/" method="post">
-	{% csrf_token %}
-	<br>
-    <input type="input" name="amount" id="1" />
-	<select size="1" name="type">
-	  <option>Доступ к расширенной версии</option>
-	</select>
-	<input type="submit" value="Confirm!" />
-	</form>
+
+	<div class="well">
+    	<h2>Платеж</h2>
+  	<div class="well">
+		<form action="/users/billing/" method="post">
+		{% csrf_token %}
+		<br>
+		<input type=number step=any name="amount"/><br>
+		<select size="1" name="type"><br>
+	  	<option >Доступ к расширенной версии</option>
+		</select><br>
+		<input class="btn btn-secondary" type="submit" value="Confirm!" />
+		</form>
+  	</div>
+
 {% endblock %}
+

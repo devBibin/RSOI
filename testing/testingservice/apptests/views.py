@@ -26,6 +26,7 @@ def get_tests(request):
 	tests = Test.objects.all()
 	p = Paginator(tests, size)
 	response_data = {}
+	response_data["size"] = size
 	if (page > max(p.page_range)):
 		page = max(p.page_range)
 	response_data['pages_count'] = p.num_pages
