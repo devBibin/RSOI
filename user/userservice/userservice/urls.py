@@ -23,4 +23,6 @@ urlpatterns = [
     url(r'^accounts/', include('django.contrib.auth.urls')), 
     url(r'^users/$', gv.get_users),
     url(r'^users/alter_group/$', gv.alter_user_group),
+    url(r'^users/check_rights/$', gv.rights_check),
+    url(r'^users/check_admin_rights/$', gv.check_admin_rights),
 ]

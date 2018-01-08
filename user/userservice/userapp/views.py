@@ -8,6 +8,7 @@ from django.contrib.auth.models import Permission, User, Group
 from django.views.decorators.csrf import csrf_exempt
 import requests
 from django.http import HttpResponse
+from oauth2_provider.decorators import protected_resource
 
 
 def get_users(request):
@@ -33,4 +34,22 @@ def alter_user_group(request):
 	u_groups = User.groups.through.objects.get(user = u)
 	u_groups.group = Group.objects.filter(name = "advanced user")[0]
 	u_groups.save()
-	return HttpResponse(requests.codes["ok"])
+	return HttpResponse(status = 200)
+
+
+def is_admin(user):
+    return user.groups.filter(name='admin').exists()
+
+
+@protected_resource()
+def rights_check(request):
+    return HttpResponse(status=200)
+
+
+@protected_resource()
+def check_admin_rights(request):
+    user = request.resource_owner
+    if is_admin(user):
+        return HttpResponse(status=200)
+    else:
+        return HttpResponse(status=403)
