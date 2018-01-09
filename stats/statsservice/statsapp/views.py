@@ -9,8 +9,14 @@ from django.views.decorators.csrf import csrf_exempt
 import requests
 from django.http import HttpResponse
 import urlparse
+from rest_framework_expiring_authtoken.authentication import (ExpiringTokenAuthentication,)
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.decorators import api_view, permission_classes, authentication_classes
 
 @csrf_exempt
+@api_view(['GET', 'POST'])
+@authentication_classes((ExpiringTokenAuthentication,))
+@permission_classes((IsAuthenticated,))
 def save_answer_info(request):
 	a = TestAnswer()
 	a.test_id = request.POST["test"]
@@ -21,6 +27,9 @@ def save_answer_info(request):
 	a.save()
 	return HttpResponse(requests.codes["ok"])
 
+@api_view(['GET'])
+@authentication_classes((ExpiringTokenAuthentication,))
+@permission_classes((IsAuthenticated,))
 def get_stats_by_questions(request, user_id):
 	q_list_ind = request.GET.getlist("question")
 	stat = TestAnswer.objects.filter(question_id__in = q_list_ind)
@@ -33,6 +42,9 @@ def get_stats_by_questions(request, user_id):
 	return JsonResponse(r)
 
 @csrf_exempt
+@api_view(['GET', 'POST'])
+@authentication_classes((ExpiringTokenAuthentication,))
+@permission_classes((IsAuthenticated,))
 def save_creative_task_info(request):
 	ct = CreativeTaskAnswer()
 	ct.task_id = request.POST["task"]

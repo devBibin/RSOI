@@ -23,3 +23,8 @@ urlpatterns = [
     url(r'^stats/get_stats/user/(?P<user_id>[0-9]+)/$', gv.get_stats_by_questions),
     url(r'^stats/save_creative/$', gv.save_creative_task_info),
 ]
+
+from rest_framework_expiring_authtoken import views
+urlpatterns += [
+    url(r'^get_auth_token/', views.obtain_expiring_auth_token)
+]

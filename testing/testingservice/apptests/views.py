@@ -7,8 +7,13 @@ from django.http import JsonResponse
 from models import *
 import json
 from django.core.paginator import Paginator
+from rest_framework_expiring_authtoken.authentication import (ExpiringTokenAuthentication,)
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.decorators import api_view, permission_classes, authentication_classes
 
-
+@api_view(['GET'])
+@authentication_classes((ExpiringTokenAuthentication,))
+@permission_classes((IsAuthenticated,))
 def get_tests(request):
 	if ((not request.GET.get("page")) and (not request.GET.get("size"))):
 		page = 1
@@ -38,6 +43,9 @@ def get_tests(request):
 		response_data['data'].append(item)
 	return JsonResponse(response_data)
 
+@api_view(['GET'])
+@authentication_classes((ExpiringTokenAuthentication,))
+@permission_classes((IsAuthenticated,))
 def get_test_by_id(request, test_id):
 	if (Test.objects.filter(pk=test_id).count()):
 		test = Test.objects.get(pk=test_id)
@@ -50,6 +58,9 @@ def get_test_by_id(request, test_id):
 	else:
 		return JsonResponse({'message':'Item not found'},status=404)
 
+@api_view(['GET'])
+@authentication_classes((ExpiringTokenAuthentication,))
+@permission_classes((IsAuthenticated,))
 def get_questions_by_test(request, test_id):
 	questions = QuestionBody.objects.filter(question_to_test = test_id)
 	response_data = {}
@@ -73,6 +84,9 @@ def get_questions_by_test(request, test_id):
 		response_data["questions"].append(item)		
 	return JsonResponse(response_data)
 
+@api_view(['GET'])
+@authentication_classes((ExpiringTokenAuthentication,))
+@permission_classes((IsAuthenticated,))
 def get_question_by_id(request, test_id, question_id):
 	if (QuestionBody.objects.filter(pk = question_id, question_to_test = test_id).count()):
 		q = QuestionBody.objects.get(pk = question_id)
@@ -94,6 +108,9 @@ def get_question_by_id(request, test_id, question_id):
 	else:
 		return JsonResponse({'message':'Item not found'},status=404)
 
+@api_view(['GET'])
+@authentication_classes((ExpiringTokenAuthentication,))
+@permission_classes((IsAuthenticated,))
 def get_correct_answer(request, test_id, question_id):
 	q = QuestionBody.objects.get(pk = question_id)
 	a = SimpleChoice.objects.filter(choice_to_question = q.pk, choice_right = True)[0].pk

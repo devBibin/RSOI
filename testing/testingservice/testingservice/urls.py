@@ -25,3 +25,8 @@ urlpatterns = [
     url(r'^tests/(?P<test_id>[0-9]+)/$', gv.get_test_by_id),
     url(r'^tests/$', gv.get_tests),
 ]
+
+from rest_framework_expiring_authtoken import views
+urlpatterns += [
+    url(r'^get_auth_token/', views.obtain_expiring_auth_token)
+]

@@ -14,6 +14,12 @@ from django.views.decorators.csrf import csrf_exempt
 GATEWAY_DOMAIN = "http://localhost:8001"
 SELF = "http://localhost:8000"
 
+
+
+def create_header(request):
+	header = {'Authorization': 'Bearer ' + str(request.COOKIES.get('access'))}
+	return {'Authorization': 'Bearer ' + str(request.COOKIES.get('access'))}
+
 def index(request):
 	return render(request, 'renderapp/index.html', {})
 
@@ -47,7 +53,8 @@ def get_questions_by_test(request, test_id):
 			resp.set_cookie('refresh', auth_data['refresh'])
 			return resp
 
-		r = requests.get(GATEWAY_DOMAIN+request.get_full_path(), params = {"user_id" : str(auth_data)})
+		r = requests.get(GATEWAY_DOMAIN+request.get_full_path(), params = {"user_id" : str(auth_data)}, headers=create_header(request))
+		
 		context = r.json()
 		
 		if (r.status_code == 200):
@@ -72,10 +79,10 @@ def get_question_by_id(request, test_id, question_id):
 			return resp
 		
 		if (request.method == "GET"):
-			r = requests.get(GATEWAY_DOMAIN+request.get_full_path(), params = {"user_id" : str(auth_data)})
+			r = requests.get(GATEWAY_DOMAIN+request.get_full_path(), params = {"user_id" : str(auth_data)}, headers=create_header(request))
 		elif (request.method == "POST"):
 			r = requests.post(GATEWAY_DOMAIN+request.get_full_path(), data = {"user_id" : str(auth_data), 
-				"choice" : str(request.POST.get("choice"))})
+				"choice" : str(request.POST.get("choice"))}, headers=create_header(request))
 
 		context = r.json()
 		if (r.status_code == 200):
@@ -99,11 +106,11 @@ def billing_user(request):
 			return resp
 		
 		if (request.method == "GET"):
-			r = requests.get(GATEWAY_DOMAIN+request.get_full_path(), params = {"user_id" : str(auth_data)})
+			r = requests.get(GATEWAY_DOMAIN+request.get_full_path(), params = {"user_id" : str(auth_data)}, headers=create_header(request))
 		elif (request.method == "POST"):
 			r = requests.post(GATEWAY_DOMAIN+request.get_full_path(), data = {"user_id" : str(auth_data),
 				"type" : str(request.POST.get("type")),
-				"amount" : str(request.POST.get("amount"))})
+				"amount" : str(request.POST.get("amount"))}, headers=create_header(request))
 		
 		context = r.json()
 		if (r.status_code == 200):
@@ -130,10 +137,10 @@ def creative_tasks(request):
 			return resp
 
 		if (request.method == "GET"):
-			r = requests.get(GATEWAY_DOMAIN+request.get_full_path(), params = {"user_id" : str(auth_data)})
+			r = requests.get(GATEWAY_DOMAIN+request.get_full_path(), params = {"user_id" : str(auth_data)}, headers=create_header(request))
 		elif (request.method == "POST"):
 			r = requests.post(GATEWAY_DOMAIN+request.get_full_path(), data = {"user_id" : str(auth_data),
-				"creative_task" : str(request.POST.get("creative_task"))})
+				"creative_task" : str(request.POST.get("creative_task"))}, headers=create_header(request))
 		
 		context = r.json()
 		if (r.status_code == 200):
@@ -167,8 +174,8 @@ def reauth(request):
 
 
 def check_and_reauth(request):
-	header = {'Authorization': 'Bearer ' + str(request.COOKIES.get('access'))}
-	resp = requests.get(GATEWAY_DOMAIN + '/users/is_auth/', headers=header)
+	resp = requests.get(GATEWAY_DOMAIN + '/users/is_auth/', headers=create_header(request))
+	print resp.status_code
 	if resp.status_code == 200:
 		return resp.content
 	else:

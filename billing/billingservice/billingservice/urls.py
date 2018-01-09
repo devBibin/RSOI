@@ -21,3 +21,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^billing/$', gv.create_bill),
     ]
+
+from rest_framework_expiring_authtoken import views
+urlpatterns += [
+    url(r'^get_auth_token/', views.obtain_expiring_auth_token)
+]

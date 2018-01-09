@@ -22,3 +22,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^creative/add/', gv.save_creative_task)
 ]
+
+from rest_framework_expiring_authtoken import views
+urlpatterns += [
+    url(r'^get_auth_token/', views.obtain_expiring_auth_token)
+]
