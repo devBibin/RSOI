@@ -1,0 +1,2000 @@
+git add .
+git commit -m "Heroku [4]"
+git push heroku master
+git add .
+git commit -m "Heroku [5]"
+git push heroku master
+git add .
+git commit -m "Heroku [6]"
+git push heroku master
+git add .
+git commit -m "Heroku [7]"
+git push heroku master
+git add .
+git status
+git commit -m "Heroku [8]"
+git push heroku master
+git status
+git add .
+git commit -m "Heroku [9]"
+git push heroku master
+pipenv install whitenoise
+git commit -m "Heroku [10]"
+git push heroku master
+git commit -m "Heroku [11]"
+git push heroku master
+git status
+git rm
+git rm -r
+git rm -r .
+git rm -r . --cached
+git add .
+git status
+git commit -m "Heroku raised"
+git push
+git push heroku master
+git add .
+git commit -m "Heroku [12]"
+git push heroku master
+git add .
+git commit -m "Heroku [13]"
+git push heroku master
+git add .
+git commit -m "Heroku [13]"
+git push heroku master
+heroku bash
+heroku logs
+git add .
+git commit -m "Heroku [14]"
+git push heroku master
+heroku logs
+git add .
+git commit -m "Heroku [15]"
+git push heroku master
+git add .
+git commit -m "Heroku [14]"
+git push heroku master
+heroku run bash
+git add .
+git commit -m "Heroku [17]"
+git push heroku master
+heroku run bash
+cd inst_tests/
+source inst_env/bin/sour
+source inst_env/bin/activate
+cd letter_analys/
+ls
+git status
+git add .
+git commit -m "Saving photos added"
+git push
+pip install matplotlib
+python manage.py runserver
+pip install scipy
+python manage.py runserver
+python manage.py runserver 8080
+python manage.py runserver 8081
+python manage.py runserver 8082
+python manage.py runserver 8083
+python manage.py runserver 8084
+python manage.py runserver 8085
+python manage.py runserver 8086
+python manage.py runserver 8087
+udo tcpkill -9 port 8000
+python manage.py runserver
+sudo tcpkill -9 port 8000
+sudo fuser -k 8000/tcp
+python manage.py runserver
+git status
+git add .
+git add -A .
+git status
+git commit -m "Dynamics graph was added"
+git oush
+git push
+git push heroku master 
+python manage.py runserver
+git status
+git add .
+git commit -m "Allowed hosts - all"
+git push
+git push heroku master 
+git status
+heroku create
+git status 
+git pull
+git push
+git push heroku master 
+pip freeze -r requirements.txt 
+pip freeze >> requirements.txt 
+git add .
+git commit -m "Requirments updated"
+git push
+python manage.py runserver
+git push heroku master 
+git status
+heroku create --buildpack https://github.com/thenovices/heroku-buildpack-scipy
+heroku apps:destroy
+heroku create --buildpack https://github.com/thenovices/heroku-buildpack-scipy
+echo -e "numpy==1.9.2\nscipy==0.15.1" > requirements.txt
+heroku apps:destroy
+nano requirements.txt 
+pip freeze >> requirements.txt 
+git status
+python manage.py rinserver
+python manage.py runserver
+git status
+git diff
+python manage.py runserver
+git add .
+git commit -m "Some code refactoring and adding comments"
+git push
+nano requirements.txt 
+git push heroku master 
+heroku create
+git push heroku master 
+pip freeze >> requirements.txt 
+git push heroku master 
+git add .
+git commit -m "Requirments edited"
+git push heroku master 
+heroku buildpacks:set https://github.com/thenovices/heroku-buildpack-scipy
+git push heroku master 
+heroku apps:destroy
+git push heroku master 
+heroku create
+git push heroku master 
+heroku buildpacks:set https://github.com/thenovices/heroku-buildpack-scipy
+git push heroku master 
+heroku buildpacks:set https://github.com/thenovices/heroku-buildpack-scipy
+pip freeze >> requirements.txt 
+pip install numpy
+pip install scipy
+cho -e "numpy==1.9.2\nscipy==0.15.1" > requirements.txt
+eecho -e "numpy==1.9.2\nscipy==0.15.1" > requirements.txt
+echo -e "numpy==1.9.2\nscipy==0.15.1" > requirements.txt
+pip freeze >> requirements.txt 
+git push heroku master 
+git add .
+git commit -m "Requirments edited[2]"
+git push heroku master 
+git status
+git push
+python manage.py runserver
+git status
+git add .
+git commit -m "Heroku deploy test"
+git push heroku master 
+git add .
+git commit -m "Heroku deploy test[1]"
+git push heroku master 
+python manage.py runserver
+git status
+git add .
+git commit -m "Heroku deploy test[2]"
+git push heroku master 
+git status
+git commit -m "Heroku deploy test[3]"
+git add .
+git commit -m "Heroku deploy test[3]"
+git push heroku master 
+python manage.py runserver
+pipenv install whitenoise
+pip install whitenoise
+pip freeze requirements.txt 
+pip freeze >> requirements.txt 
+python manage.py runserver
+git add .
+python manage.py runserver
+git status
+git add .
+python manage.py 
+python manage.py runserver
+cd ../
+source inst_env/bin/activate
+cd letter_analys/
+python manage.py runserver
+pyth
+python manage.py test
+sudo postgre -u
+sudo -u postgres psql
+psql -h localhost letter_analys vladimir
+sudo -u postgres psql
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+bash make_clean_inmio_only
+bash makeclean_inmio_only
+bash makeclean_inmio
+bash makeclean_inmio_only
+bash makeclean_inmio
+bash makeclean_inmio_only
+bash makeclean_inmio
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 4 OCN 1 ATM 1 tst 0 0 1
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+mpirun -np 6 ./model.exe CPL 4 OCN 1 ATM 1 tst 0 0 2
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 2
+cd tracks/
+python graph_concentration.py 
+cd ../
+cd 
+cd inst_tests/
+cd letter_analys/
+ls
+python manage.py runserver
+cd ..
+ls
+source inst_env/bin/activate
+cd letter_analys/
+python manage.py runserver
+python manage.pypy
+python manage.py
+python manage.py test
+python manage.py runserver
+python manage.py test
+python manage.py runserver
+python manage.py test
+heroku open
+git add .
+git commit -m "First tests were added"
+git push
+git add .
+git commit -m "Test corrected"
+git push
+python manage.py runserver
+git status
+git add .
+git push
+git commit -m "Some fixes after tests"
+git push
+cd inst_tests/letter_analys/
+heroku open
+git status
+git add appletter/tests.py 
+git add letter_analys/settings.py 
+git status
+git commit -m "Heroku config string deleted"
+git push
+cd inst_tests/
+ls
+cd letter_analys/
+ls
+python manage.py runserver
+cd ../
+source inst_env/bin/activate
+cd letter_analys/
+python manage.py runserver
+python manage.py y test
+python manage.py
+python manage.py test
+python manage.py collectstatic
+python manage.py test
+python manage.py runserver
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+ulimit -s unlimited
+cd inst_tests/
+ls
+cd letter_analys/
+cd ../
+source inst_env/bin/activate
+cd letter_analys/
+python manage.py runserver
+skype
+python
+cd inst_tests/
+source inst_env/bin/activate
+cd letter_analys/
+python manage.py runserver
+apt-get update
+sudo apt-get update
+python3 -v
+mkdir /opt/chat
+sudo mkdir /opt/chat
+./source /opt/chat/
+cd ../
+cd server/
+python chat.py 127.0.0.1 8000
+cd chat/
+ls
+cd client/
+python client.py 
+python chat.py 
+python chat.py 127.0.0.1 8000
+python chat.py 192.168.1.10
+python chat.py 192.168.1.10 5003
+python chat.py 127.0.0.1 8000
+python
+cd ctf/doge/
+python main.py 
+python
+python main.py 
+cd ../
+git clone https://github.com/kevinpt/ripyl
+cd ripyl/
+python install
+ls
+python setup.py install
+sudo python setup.py install
+cd ../
+cd osc/
+python osc.py 
+chat
+./source /opt/chat/
+cd ../
+cd server/
+python chat.py 127.0.0.1 8000
+cd chat/
+ls
+cd client/
+python client.py 
+python chat.py 
+python chat.py 127.0.0.1 8000
+python chat.py 192.168.1.10
+python chat.py 192.168.1.10 5003
+python chat.py 127.0.0.1 8000
+cd inst_tests/
+source inst_env/bin/activate
+cd letter_analys/
+ls
+python manage.py runserver
+travis setup heroku
+sudo apt-get install travis
+cd inst_tests/
+source inst_env/bin/activate
+cd letter_analys/
+ls
+git status
+travis encrypt $(heroku auth:token) --add deploy.api_key
+travis setup heroku
+travis encrypt $(heroku auth:token) --add deploy.api_key
+heroku auth:token
+git status
+git add .
+git commit -m "Views edited"
+git push
+heroku auth:token
+git add .
+git commit -m "Deploy heroku with Travis"
+git push
+git add .
+git commit -m "Deploy heroku with Travis[2]"
+git push
+heroku apps
+git add .
+git commit -m "Deploy heroku with Travis[3]"
+git push
+git heroku push master
+heroku push master
+git push heroku master 
+heroku apps
+git add .
+git commit -m "Deploy heroku with Travis[4]"
+git push
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+grep -nr "character(LEN=NAME_LEN) cur_time, cur_date, time_str, model_time"
+cd ../
+grep -nr "shared_timer_min"
+grep -nr "IS2"
+grep -nr "I2S"
+bash make_inmio_only
+cd coupling/
+bash make_inmio_only
+ulimit -s inlimited
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+cd ../
+cd coupling/
+bash make_inmio
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+cd model/vitim2.1/cpu
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+ulimit -s unlimited
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+python
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+ulimit -s unlimited
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+ulimit -s unlimited
+bash make_inmio_only
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 1
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 90
+sudo cat /etc/NetworkManager/system-connections/inm602 
+cd model/vitim2.1/coupling/tracks/experiment_17.11.09/
+bash echo_all_files.sh 
+bash echo_all_files.sh >> filenames.txt
+cd ../
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 90
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 90
+mc
+top
+cd model/vitim2.1/coupling/tracks/
+ды
+ls
+python graph_concentration.py 
+python
+python graph_concentration.py 
+cd experiment_17.12.09\(from\ 01.01\ to\ 15.01\)/
+ls
+bash echo_all_files.sh >> filename.txt
+cd ../
+python graph_concentration.py 
+cd model/vitim2.1/coupling/
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 90
+cd tracks/
+cd experiment17.11.10/
+bash echo_all_files.sh >> filenames.txt
+cd ../
+python graph_concentration.py 
+[A
+python graph_concentration.py 
+зinta
+pinta
+python
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+cd inst_tests/
+cd letter_analys/
+ls
+git status 
+git add .
+git status
+git rm appletter/templates/appletter/letter.html 
+git rm -f  appletter/templates/appletter/letter.html 
+git status
+git diff
+git commit -m
+git commit -m ""
+git commit -m "lal"
+git status
+git push
+git status
+cd inst_tests/
+source inst_env/bin/activate
+cd letter_analys/
+python manage.py runserver
+cd model/vitim2.1/coupling/tracks/
+python graph_concentration.py 
+cd ..
+cd coupling/tracks/
+python graph_concentration.py 
+cd model/documents_and_presentations/Scripts/
+ls
+python decomposition.py 
+cd ../
+cd cou
+cd vitim2.1/coupling/
+bash make_inmio_only
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 90
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 90
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 90
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+cd tracks/
+cd experiment17.11.11
+cd experiment17.11.13
+ls
+cd ../
+cd
+cd model/vitim2.1/coupling/tracks/
+python graph_concentration.py 
+cd experiment17.11.13
+cd experiment17.11.14
+ks
+ls
+bash echo_all_files.sh >> filenames.txt 
+cd ../
+python graph_concentration.py 
+cd ../
+bash make_inmio
+bash make_inmio_only
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+cd inst_tests/
+source inst_env/bin/activate
+cd letter_analys/
+python manage.py runserver
+cd model/vitim2.1/coupling/
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+cd tracks/
+ls
+python graph_concentration.py 
+cd experiment17.11.15
+ls
+bash echo_all_files.sh >> filenames.txt 
+cd ../
+python graph_concentration.py 
+cd ../
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 3 ./model.exe CPL 1 OCN 1 ATM 1 tst 0 0 60
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60 >> log.txt
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60 >> log.txt
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60 >> log.txt
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60 >> log.txt
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60 >> log.txt
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+cd model/vitim2.1/coupling/
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+cd model/vitim2.1/coupling/
+echo I_MPI_FABRICS
+echo $I_MPI_FABRICS
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+sudo su
+cd model/vitim2.1/coupling/
+bash make_inmio_only
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+cd tracks/
+bash make_inmio_only
+cd ../
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+echo $I_MPI_FABRICS 
+cd model/vitim2.1/coupling/
+echo $I_MPI_FABRICS 
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+cd model/vitim2.1/coupling/
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+cd model/vitim2.1/
+cd coupling/
+echo $I_MPI_FABRICS 
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+echo $I_MPI_FABRICS 
+ssh твой_логин@mvs10p.jscc.ru
+ssh bibin7@mvs10p.jscc.ru
+знерщт
+python
+ssh bibin7@mvs10p.jscc.ru
+apt-get install filezilla
+sudo apt-get install filezilla
+filezilla
+cd DjangoProject/langcourse/
+ls
+python manage.py runserver 8081
+psql -u vladimir
+psql --help
+psql -h localhost db_cources_test vladimir
+psql -h localhost db_courses_test vladimir
+cd ../
+cd gateway/gatewayservice/
+ls
+python manage.py runserver
+cd DjangoProject/
+cd user/
+django-admin start user-service
+django-admin help
+cd ../
+ls
+source myvenv/bin/activate
+cd user
+django-admin startproject user-service
+django-admin startproject userservice
+ls
+cd userservice/
+ls
+python manage.py runserver
+django-admin createsuperuser
+python manage.py createsuperuser
+python manage.py runserver
+cd ../
+cd gateway/
+django-admin startproject gatewayservice
+cd gatewayservice/
+ls
+python manage.py makemigrations
+python manage.py startapp gatewayapp
+python manage.py runserver
+cd ../
+cd testing/
+django-admin startproject testingservice
+cd testingservice/
+ls
+python manage.py startapp testingapp
+python manage.py makemigrations
+python manage.py flush
+python manage.py makemigrations
+python manage.py startapp apptest
+python manage.py startapp apptests
+python manage.py makemigrations
+python manage.py migrate
+python manage.py -h
+python manage.py shell
+pyhon manage.py runserver
+ptyhon manage.py runserver
+python manage.py runserver
+python createsuperuser root1
+django-admin createsuperuser root1
+python manage.py createsuperuser
+python manage.py runserver
+pythonon manage.py shell
+python maage.py shell
+python manage.py shell
+python manage.py makemigrations
+python manage.py runserver
+python manage.py migrate
+python manage.py runserver
+python manage.py
+python manage.py flush
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py shell
+python manage.py runserver 8081
+python manage.py  makemigrations
+python manage.py runserver 8081
+cd ../
+cd testing/testingservice/
+python manage.py runserver 8081
+cd DjangoProject/
+cd gateway/gatewayservice/
+ls
+python manage.py runserver
+cd ../
+mkdir billingservice
+cd billingservice/
+django-admin startproject billingservice
+ls
+cd billingservice/
+ls
+python manage.py startapp billingapp
+ls
+cd ../
+cd user/
+cd userservice/
+python manage.py runserver 8082
+python manage.py rushell
+python manage.py shell
+python manage.py runserver 8082
+cd DjangoProject/user/userservice/
+python manage.py shell
+cd DjangoProject/user/
+cd userservice/
+python manage.py
+python manage.py startapp userapp
+psql -h localhost db_cources_test vladimir
+psql -h localhost db_courses_test vladimir
+cd ../..
+cd testing/testingservice/
+python manage.py runserver 8081
+cd DjangoProject/gateway/
+cd gatewayservice/
+python manage.py runserver
+python manage.py makemigrations
+python manage.py nigrate
+python manage.py migrate
+python manage.py runserver
+cd model/vitim2.1/coupling/
+ulimit -s unlimited
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+pip install PyOpenGL PyOpenGL_accelerate
+sudo pip install PyOpenGL PyOpenGL_accelerate
+sudo apt-get build-dep python-pygame
+sudo apt-get install mercurial
+pip install hg+http://bitbucket.org/pygame/pygame
+sudo pip install hg+http://bitbucket.org/pygame/pygame
+sublime
+cd 
+ssh bibin7@mvs10p.jscc.ru
+cd Aeroxo/
+python cube.py 
+python 3d_cells.py 
+sudo pip install PyWavefront
+python
+python model.py 
+pip install bpy
+sudo 
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+sudo pip install bpy
+git clone http://git.blender.org/blender.git
+python model.py 
+cd Aeroxo/
+python model.py 
+pip install Affine
+sudo pip install Affine
+python model.py 
+[A
+python model.py 
+python physics.py 
+cd ..
+cd model/vitim2.1/coupling/tracks/
+cd experiment17.11.25/
+bash echo_all_files.sh 
+bash echo_all_files.sh >> filenames.txt
+cd ../
+python graph_concentration.py 
+сd Aeroxo/
+cd Aeroxo/
+python graph_concentration.py 
+python physics.py 
+clear
+python physics.py 
+ssh bibin7@mvs10p.jscc.ru
+cd model/vitim2.1/coupling/tracks/
+python graph_concentration.py 
+cd 
+cd Aeroxo/
+python model.py 
+cd ../
+cd s
+cd ../
+cd stats/statsservice/
+s
+ls
+python manage.py makemigrations
+python manage.py migrate
+cd ../
+mkdir creative_tasks
+cd creative_tasks/
+django-admin startproject creative_tasksapp
+ls
+django-admin startproject creativeservice
+cd creativeservice/
+python manage.py runserver creativeapp
+python manage.py startapp creativeapp
+ls
+python manage.py runserver 8089
+python manage.py  makemigrations
+python manage.py migrate
+git status
+git add ../../stats/
+git status
+git commit -m "Stats service added"
+git push
+git status
+git add ../../billing
+git status
+git commit -m "Billing service added"
+git push
+git status
+git diff
+cd ../../
+nano .gitignore 
+git diff
+git status
+git add creative_tasks/
+git commit -m "Creative_tasks service added"
+git push
+git status
+git diff
+git add .
+git commit -m "Pagination added"
+git push
+cd billing/billingservice/
+python manage.py makemigrations
+python manage.py migrate
+cd testing/testingservice/
+python manage.py runserver 8081
+cd user/
+cd userservice/
+python manage.py runserver 8082
+git status
+git add
+git add ../../stats/
+git commit -m "Stats service added"
+git push
+python manage.py runserver 8082
+cd DjangoProject/
+git init
+git status
+git add .
+git commit -m "Raw version of 2nd lab is added"
+git remote add origin https://github.com/devBibin/RSOI.git
+git push -u origin master
+mk dir stats
+mkdir stats
+cd stats
+django-admin -h
+django-admin startproject statsservice
+ls
+cd statsservice/
+ls
+python manage.py startapp statsapp
+ls
+cd ../../
+ls
+cd gateway/
+ls
+cd gatewayservice/
+ls
+python manage.py 
+python manage.py runserver
+cd Aeroxo/
+ls
+python model.py 
+cd ..
+cd model/vitim2.1/coupling/tracks/
+nano graph_concentration.py 
+python graph_concentration.py 
+ssh bibin7@mvs10p.jscc.ru
+cd model/vitim2.1/
+cd comps/ocn/
+grep -nr kh =
+grep -nr "kh ="
+cd ../
+grep -nr "kh ="
+grep -nr "c1ahv"
+grep -nr "c1ahv ="
+grep -nr "c1ahv="
+grep -nr "c1ahv"
+cd ..
+grep -nr "kh ="
+grep -nr "ah_e"
+cd comps/
+cd ocn/
+grep -nr "ah_e"
+cd ..
+cd cou
+cd ..
+cd coupling/
+bash make_inmio_only
+ulimit -s unlimited
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+cd ../comps/oc
+cd ../comps/ocn/
+grep -nr "ah_e"
+grep -nr "ah="
+grep -nr "ah = "
+grep -nr "ah"
+grep -nr "ah_e="
+grep -nr "ah_n="
+grep -nr "kh="
+grep -nr "kh ="
+grep -nr "kh="
+grep -nr "amz"
+grep -nr "av1"
+cd ../
+grep -nr "av1"
+cd ../
+cd coupling/
+bash make_inmio
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+bash make_inmio_only
+mpirun -np 6 ./model.exe CPL 1 OCN 4 ATM 1 tst 0 0 60
+cd tracks/
+python graph_concentration.py 
+cd Aero
+cd Aeroxo/
+ls
+nano model.py 
+python model.py 
+python
+св юю.
+cd ../
+cd stats/statsservice/
+ls
+python manage.py 8084
+python manage.py runserver 8084
+python manage.py makemigrations
+python manage.py migrate
+python manage.py 8084
+python manage.py runserver 8084
+psql -h localhost mydatabase myuser
+psql -h localhost db_courses_test vladimir
+cd ../
+ls
+cd testing/testingservice/
+python manage.py runserver 8081
+python manage.py test
+cd DjangoProject/
+ls
+cd gateway/
+ls
+cd gatewayservice/
+python manage.py runserver
+cd ../
+cd billing/billingservice/
+python manage.py runserver
+python manage.py runserver 8083
+cd ../
+ls
+source myvenv/bin/activate
+pip install djangorestframework
+pip install markdown  
+pip install pyyaml 
+pip install django-filter
+cd billing/billingservice/
+python manage.py runserver 8083
+pip install requests
+python manage.py runserver 8083
+pythonin manage.py shell
+python manage.py shell
+python manage.py runserver 8083
+cd ../../
+cd user/userservice/
+python manage.py runserver 8082
+cd ../
+cd creative_tasks/creativeservice/
+python manage.py runserver 8085
+source myvenv/bin/activate
+cd gateway/gatewayservice/
+python manage.py test
+python manage.py makemigrations
+python manage.py makemigration
+python manage.py makemigrations
+python manage.py migrate
+python manage.py test
+cd ../
+cd testing/testingservice/
+python manage.py runserver 8081
+source myvenv/bin/activate
+cd billing/billingservice/
+python manage.py runserver 8083
+source myvenv/bin/activate
+cd user/userservice/
+python manage.py runserver 8082
+cd model/vitim2.1/coupling/
+ls
+cd tracks/
+python graph_concentration.py 
+ssh bibin7@mvs10p.jscc.ru
+python graph_concentration.py 
+cd DjangoProject/gateway/gatewayservice/
+python manage.py test
+python manage.py runserver
+python manage.py test
+св 
+cd 
+cd model/vitim2.1/coupling/tracks/
+ls
+python graph_concentration.py 
+cd DjangoProject/
+git status
+git diff
+git log
+psql localhost -h db_courses_test vladimir
+psql -h localhost db_courses_test vladimir
+source myvenv/bin/activate
+cd stats/statsservice/
+python manage.py runserver 8084
+source myvenv/bin/activate
+cd user/userservice/
+python manage.py 
+python manage.py 8082
+python manage.py runserver 8082
+python manage.py test
+cd ../
+../
+cd ../
+ls
+source myvenv/bin/activate
+cd testing/testingservice/
+python manage.py runserver 8081
+source myvenv/bin/activate
+cd billing/billingservice/
+python manage.py runserver 8083
+cd DjangoProject/
+source myvenv/bin/activate
+cd gateway/gatewayservice/
+ls
+python manage.py runserver
+ng/billingservice/
+python manage.py runserver 8083
+source myvenv/bin/activate
+cd creative_tasks/creativeservice/
+python manage.py runserver 8085
+cd model/vitim2.1/coupling/tracks/
+python graph_concentration.py 
+python to_black_and_white.py 
+pinta
+св юю.
+cd ../
+cd testing/testingservice/
+python manage.py runserver 8081
+cd DjangoProject/
+ls
+cd gateway/gatewayservice/
+python manage.py runserver
+cd ../../
+cd stats/statsservice/
+python manage.py runserver 8082
+python manage.py runserver 8084
+psql -h localhost db_courses_test vladimir
+cd Aeroxo/
+python model_full.py 
+python model
+python model_full.py 
+cd ../../
+cd testing/testingservice/
+python manage.py runserver 8081
+cd DjangoProject/gateway/gatewayservice/
+python manage.py runserver
+cd ../../
+cd stats/statsservice/
+python manage.py runserver 8084
+cd ../../
+cd user/userservice/
+python manage.py runserver 8082
+cd Aeroxo/
+python model_full.py 
+cd Aeroxo/
+python model_full.py 
+1
+python model_full.py 
+python
+cd DjangoProject/stats/statsservice/
+python manage.py runserver stats
+python manage.py runserver 8084
+#!/bin/bash
+cd /tmp || exit
+echo "Downloading Postman ..."
+wget -q https://dl.pstmn.io/download/latest/linux?arch=64 -O postman.tar.gz
+cd ../
+#!/bin/bash
+cd /tmp || exit
+echo "Downloading Postman ..."
+wget -q https://dl.pstmn.io/download/latest/linux?arch=64 -O postman.tar.gz
+cd ../
+cd Postman
+ls
+cd home/
+cd DjangoProject/testing/
+cd ../../
+cd DjangoProject/
+git syayus
+git status
+git add .
+git status
+git commit -m "Tests for all services were added"
+git push
+git status
+git rm gateway/gatewayservice/gateway/tests
+git rm gateway/gatewayservice/gateway/tests.py
+git rm gateway/gatewayservice/gatewayapp/tests.py
+git rm testing/testingservice/apptests/test.py
+git status
+git pull
+git checkout testing/testingservice/apptests/tests.py
+git checkout testing/testingservice/apptests/test.py
+git pull
+cd testing/testingservice/
+python manage.py test
+cd DjangoProject/
+cd testing/testingservice/
+ls
+python manage.py testingservice/
+python manage.py test
+cd DjangoProject/testing/testingservice/
+python manage.py runserver 8081
+cd ../../
+;s
+ls
+cd billing/billingservice/
+python manage.py test
+cd ../../
+cd creative_tasks/creativeservice/
+python manage.py test
+cd ../../
+cd stats/statsservice/
+python manage.py test
+python
+pip install mock
+sudo pip install requests_mock
+cd ../../
+cd gateway/gatewayservice/
+python manage.py test
+git status
+git add .
+git status
+git add .
+cd ../../
+git status
+nano .gitignore
+git add .
+git add -A .
+git status
+git commit -m "Services tests were added"
+git push
+cd Postman/
+./Postman 
+Postman 
+bash install.sh
+Postman
+bash install.sh
+cd DjangoProject/gateway/gatewayservice/
+python manage.py runserver
+cd Aeroxo/
+python model_full.py 
+cd DjangoProject/
+cd gateway/gatewayservice/
+python manage.py  test
+python manage.py runserver
+python manage.py test
+python manage.py runserver
+cd ../../
+git status
+git add .
+cd gateway/gatewayservice/
+python manage.py test
+cd ../../
+git status
+git add .
+git commit -m "Gateway service tests were added"
+git push
+cd gateway/gatewayservice/
+coverage run manage.py test
+coverage report
+python manage.py test
+coverage run manage.py test
+coverage report
+python manage.py test
+cd ../../
+git status
+git add .
+git commit -m "Full gateway testing added"
+git push
+cd gateway/gatewayservice/
+coverage run manage.py test
+cd billing/billingservice/
+cd creative_tasks/creativeservice/creativec
+bash test_script.sh 
+git status
+git add test_script.sh 
+git commit -m "test script for all services added"
+git push
+git add .
+git commit -m "Lab2 with full testing  added"
+git push
+cd gateway/gatewayservice/
+python manage.py runserver
+pip install pika
+sudo pip install pika
+sudo pip install zmq
+python manage.py runserver
+cd ../../
+cd testing/testingservice/
+python manage.py  ruserver 8081
+python manage.py  runerver 8081
+python manage.py  runserver 8081
+cd ../../stats/statsservice/
+python manage.py runserver 8084
+cd ../../
+cd billing/billingservice/
+python manage.py runserver 8083
+cd ../../
+cd creative_tasks/creativeservice/
+python manage.py runserver 8085
+cd ../../user/userservice/
+python manage.py runserver 8082
+cd DjangoProject/
+bash test_script.sh 
+git diff
+git status
+git add /
+git add .
+git commit -m "Errors codes in case of unavailable system added"
+git push
+git status
+python receive.py 
+python send.py 
+psql -h localhost db_cources_test vladimir
+psql -h localhost db_courses_test vladimir
+sudo usermod -a -G dialout $USER
+sudo su
+groups
+cd Aeroxo/FX4/
+bash ubuntu_sim_nuttx.sh 
+cd Aeroxo/FX4/
+chmod +x ./QGroundControl.AppImage;
+chmod +x ./QGroundControl.AppImage
+mkdir -p ~/src
+bash ini_tagrget.sh 
+cd ~/src
+ls
+cd ../
+cd ~src
+cd src
+cd Firmware/
+make posix jmavsim
+cd ..
+cd 
+cd Aeroxo/FX4/
+bash ini_tagrget.sh 
+ды
+ls
+./QGroundControl.AppImage 
+cd Aeroxo/
+ls
+cd FX4/
+ls
+source ini_tagrget.sh 
+make posix_sitl_default gazebo_standard_vtol
+make posix gazebo_plane
+cd ../
+cd Aeroxo/FX4/
+git clone https://github.com/devBibin/Firmware.git
+cmake --version
+sudo apt-get install cmake
+psql -h localhost db_courses_test vladimir
+cd user/userservice/
+python manage.py runserver 8083
+python manage.py runserver 8082
+cd testing/testingservice/
+cd billing/billingservice/
+python manage.py runserver 8083
+pip install Celery
+sudo pip install Celery
+cd DjangoProject/
+cd gateway/gatewayservice/
+python manage.py runserver
+cd DjangoProject/
+git status
+git add .
+git commit -m "3, 4, 5 of Lab3 added"
+git push
+cd DjangoProject/gateway/gatewayservicecd ../
+cd DjangoProject/
+source test_script.sh 
+cd DjangoProject/
+source test_script.sh 
+python manage.py  runserver
+coverage report
+python manage.py  runserver
+cd ../../
+ls
+cd creative_tasks/creativeservice/
+python manage.py 8085
+python manage.py runserver 8085
+psql -h localhost db_courses_test vladimir
+cd ../../
+cd stats/statsservice/
+python manage.py runserver 8084
+cd ../../
+cd testing/testingservice/
+python manage.py runserver 8081
+cd ../../
+cd billing/billingservice/
+python manage.py 8083
+ls
+python manage.py runserver 8083
+cd DjangoProject/gateway/gatewayservice/
+python manage.py runserver
+sudo pip install djcelery
+sudo pip install Celery
+python manage.py runserver
+sudo pip install rabbitmq-serverpip install -U Celery
+pip install -U Celery
+sudo pip install -U Celery
+python manage.py runserver
+sudo pip install djcelery
+pip install django-celery'
+;
+zxzxcdsc
+ds
+calla\
+\/
+.
+pip install django-celery
+sudo pip install django-celery
+python manage.py runserver
+python manage.py y celeryd -l info
+python manage.py  celeryd -l info
+python manage.py celeryd -l info
+python manage.py runserver
+python manage.py  makemigrations
+python manage.py  migrate
+python manage.py celeryd -l info
+python manage.py  migrate
+python manage.py  makemigrations
+python manage.py celeryd -l info
+cd DjangoProject/billing/billingservice/
+python manage.py makemigations
+python manage.py  makemigations
+python manage.py makemigrations
+cd ../../
+cd gateway/gatewayservice/
+python manage.py runserver
+cd ../../testing/testingservice/
+python manage.py runserver 8081
+cd DjangoProject/
+git status
+git add .
+git commit -m "3rd lab added"
+git push
+ls
+python manage.py celeryd -l info
+psql -h localhost db_courses_test vladimir
+cd stats/statsservice/
+python manage.py runserver 8084
+cd testing/testingservice/
+python manage.py  runserver 8081
+cd creative_tasks/creativeservice/
+python manage.py runserver 8085
+cd DjangoProject/
+ls
+cd gateway/gatewayservice/
+python manage.py runserver
+cd billing/billingservice/
+python manage.py runserver 8083
+ls
+cd user/userservice/
+python manage.py runserver 8082
+pinta
+gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/vladimir/screenshots/"
+cd Aeroxo/
+ls
+python model_full.py 
+cd Aeroxo/
+python model_full.py 
+1
+python model_full.py 
+1
+python model_full.py 
+pythom
+python
+python model_full.py 
+cd Aeroxo/
+python model_full.py 
+pinta
+cd model/documents_and_presentations/Scripts/
+ls
+python 3d_land.py 
+cd model/documents_and_presentations/Scripts/
+python 3d_land.py 
+pinta
+cd Aeroxo/
+ls
+python model_full.py 
+psql -h localhost db_courses_test vladimir
+cd ../../
+cd creative_tasks/creativeservice/
+python manage.py  runserver 8085
+cd ../../
+cd billing/billingservice/
+python manage.py runserver 8083
+cd ../../
+cd creative_tasks/creativeservice/
+python manage.py runserver 8085
+cd ../../
+cd billing/billingservice/
+python manage.py runserver 8083
+cd ../../
+cd user/userservice/
+python manage.py runserver 8082
+cd ../../
+cd stats/statsservice/
+python manage.py runserver 8084
+cd ../../testing/testingservice/
+python manage.py runserver 8081
+cd DjangoProject/gateway/
+cd gatewayservice/
+python manage.py runserver
+top
+sudo kill -9 7121
+sudo cat /etc/NetworkManager/system-connections/Biba
+ls
+sudo fsck -Af -M
+sudo fsck.ext4 -f /dev/sda1
+sudo fsck -Af -M
+dmesg | grep "EXT4-fs error"
+mount -v | grep "^/" | awk '{print "\nPartition identifier: " $1  "\n Mountpoint: "  $3}'
+sudo mount -o remount,rw /dev/sda4  /media/vladimir/HRM_CENA_X6/
+sudo mount -o remount,rw /dev/sdb1  /media/vladimir/HRM_CENA_X6/
+mount -v | grep "^/" | awk '{print "\nPartition identifier: " $1  "\n Mountpoint: "  $3}'
+sudo mount -o remount, rw /dev/sdb1  /media/vladimir/HRM_CENA_X6/
+None of the above steps worked for me.
+I did:
+$ sudo fsck -Af -M  
+it just returned
+what after this?? :(
+This also did not work for me:
+sudo fsck.ext4 -f /dev/sda1  
+returned a whole list of warnings as my file system was NTFS. :(
+The main thing is to make the drive from "read-only" to "read-write".
+In my case the drive "New Volume" was affected.
+To check the file system of the drive which is affected I ran this command:
+mount -v | grep "^/" | awk '{print "\nPartition identifier: " $1  "\n Mountpoint: "  $3}'
+It retuned a few lines along with this
+Partition identifier: /dev/sda4
+Here it returned "/media/sarthak/New", but my drive's full name is "New Volume", so I simply executed the below command
+
+sudo mount -o remount,rw /dev/sda4  /media/sarthak/New\ Volume/
+;
+sudo mount -o remount,rw /dev/sdb1 /media/vladimir/HRM_CENA_X6/
+mount -v | grep "^/" | awk '{print "\nPartition identifier: " $1  "\n Mountpoint: "  $3}'
+sudo mount -o remount, rw /dev/sdb1 /media/vladimir/HRM_CENA_X6/
+sudo mount -o remount rw /dev/sdb1 /media/vladimir/HRM_CENA_X6/
+sudo mount -o remount
+rw /dev/sdb1 /media/vladimir/HRM_CENA_X6/
+rw /dev/sda4 /media/vladimir/HRM_CENA_X6/
+sudo mount -o remount, rw /dev/sda4 /media/vladimir/HRM_CENA_X6/
+fsck /dev/sdb1
+sudo fsck /dev/sdb1
+sudo mount -o remount, rw /dev/sdb1 /media/vladimir/HRM_CENA_X6/
+A device can be given by name, say /dev/hda1 or /dev/cdrom,
+sudo fsck -f  /dev/sdb1
+sudo fsck -Af -M
+mount -o remount /
+sudo fsck.ext4 -f /dev/sdb1
+dmesg | grep "EXT4-fs error"
+mount -o remount,rw /dev/sdb1 
+sudo mount -o remount,rw /dev/sdb1 
+sudo mount -o remount,rw /media/vladimir/HRM_CENA_X6/
+sudo reboot
+dmesg
+sudo fsck.msdos -aw /dev/sdb1
+ls
+cd RSOI_services\ лабы\ 2-6/
+ls
+cd auth_server/
+ls
+python manage.py runserver
+cd Django
+cd DjangoProject/
+ls
+django-admin startproject render
+cd render/
+python manage.py startapp renderservice
+pip install django-oauth2-provider
+sudo pip install django-oauth2-provider
+python
+psql -h localhost -db db_courses_test vladimir
+psql -h localhost vladimir db_courses_test 
+psql -h localhost vladimir
+psql -h localhost db_courses_test vladimir
+cd Django
+cd DjangoProject/
+git status
+git add .
+git commit -m "Remembered about git"
+git push
+git status
+git add .
+git commit -m "Checking user rights functions were added"
+git push
+git status
+git add .
+git commit -m "Check rights to gateway added"
+git pysh
+git push
+git add .
+git status
+git commit -m "Raw Oauth2 added"
+git push
+git status
+git commit -m "OAuth2 added"
+git add .
+git commit -m "OAuth2 added"
+git push
+cd ../../
+cd user/userservice/
+python manage.py runserver 8083
+pip install django-oauth-toolkit django-cors-middleware
+sudo pip install django-oauth-toolkit django-cors-middleware
+python manage.py runserver 8083
+python manage.py migrate
+python manage.py makemigrations
+python manage.py runserver 8083
+python manage.py runserver 8082
+clear
+python manage.py runserver 8082
+cd ../gateway/gatewayservice/
+python manage.py runserver 8001
+clear
+python manage.py runserver 8001
+clear
+python manage.py runserver 8001
+cd ../../billing/billingservice/
+python manage.py 8083
+python manage.py runserver 8083
+cd DjangoProject/
+cd render/
+python manage.py runserver
+clear
+python manage.py runserver
+cd ../../stats/statsservice/
+python manage.py runserver 8084
+cd DjangoProject/
+git status
+git push
+git add .
+git commit -m "5th lab was added"
+git push
+cd .././
+cd ../
+cd creative_tasks/creativeservice/
+python manage.py runserver 8085
+cd ../../
+cd billing/billingservice/
+python manage.py runserver 8083
+cd ../../
+cd stats/statsservice/
+python manage.py runserver 8084
+cd ../
+cd user/userservice/
+python manage.py  runserver 8082
+cd DjangoProject/
+cd gateway/gatewayservice/
+python manage.py 
+python manage.py createsuperuser
+psql -h localhost vladimir db_courses_test 
+psql -h localhost db_courses_test vladimir
+cd .././
+cd ../
+cd testing/testingservice/
+python manage.py runserver 8081
+pip install djangorestframework
+sudo pip install djangorestframework
+python manage.py runserver 8081
+sudo pip install djangorestframework-expiring-authtoken
+python manage.py runserver 8081
+python manage.py migrate
+python manage.py makemigrations
+python manage.py runserver 8081
+cd ../../
+cd DjangoProject/
+cd gateway/gatewayservice/
+python manage.py runserver 8081
+python manage.py runserver 8001
+cd DjangoProject/
+cd render/render
+ls
+cd ../
+python manage.py  runserer
+python manage.py  runserver

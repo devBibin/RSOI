@@ -38,7 +38,8 @@ def alter_user_group(request):
 
 
 def is_admin(user):
-	return user.groups.filter(name='admin').exists()
+	return str(User.groups.through.objects.get(user = user).group) == "admin"
+
 
 
 @protected_resource()

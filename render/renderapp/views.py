@@ -8,6 +8,7 @@ from django.contrib.auth.decorators import login_required
 import requests
 import json
 from django.views.decorators.csrf import csrf_exempt
+from renderapp.graphics import create_uri_chart, create_auth_percantage_chart, create_activity_dinamics
 
 
 
@@ -18,7 +19,7 @@ SELF = "http://localhost:8000"
 
 def create_header(request):
 	header = {'Authorization': 'Bearer ' + str(request.COOKIES.get('access'))}
-	return {'Authorization': 'Bearer ' + str(request.COOKIES.get('access'))}
+	return header
 
 def index(request):
 	return render(request, 'renderapp/index.html', {})
@@ -40,7 +41,59 @@ def get_test_by_id(request, test_id):
 		return render(request, 'renderapp/test.html', context)
 	else:
 		return render(request, 'renderapp/error_page.html', context)
-		
+
+def get_stats(request):
+	auth_data = check_and_reauth(request)
+	if (auth_data is not None):
+		try:
+			int(auth_data)
+		except:
+			resp = HttpResponseRedirect(SELF+request.get_full_path())
+			resp.set_cookie('access', auth_data['token'])
+			resp.set_cookie('refresh', auth_data['refresh'])
+			return resp
+
+		r = requests.get(GATEWAY_DOMAIN+"/users/is_admin/", headers=create_header(request))
+		if (r.status_code == 200):
+			
+			r = requests.get(GATEWAY_DOMAIN+"/stats/auth_stats/")
+			context = r.json()
+			create_auth_percantage_chart(context["auth_tries"], context["auth_completed"])
+
+			r = requests.get(GATEWAY_DOMAIN+"/stats/request_stats/")
+			context = r.json()
+			create_uri_chart(context)
+			
+			r = requests.get(GATEWAY_DOMAIN+"/stats/request_distrubution/")
+			context = r.json()
+			create_activity_dinamics(context)
+
+			context = {}
+			return render(request, 'renderapp/stats.html', context)
+		elif (r.status_code == 403):
+			context = r.json()
+			return render(request, 'renderapp/error_page.html', context)
+	else:
+		return HttpResponseRedirect(SELF + "/users/auth/")
+
+
+def get_auth_stats(request):
+	r = requests.get(GATEWAY_DOMAIN+request.get_full_path())
+	context = r.json()
+	create_auth_percantage_chart(context["auth_tries"], context["auth_completed"])
+	return HttpResponse(context)
+
+def get_requests_stats(request):
+	r = requests.get(GATEWAY_DOMAIN+request.get_full_path())
+	context = r.json()
+	create_uri_chart(context)
+	return HttpResponse(context)
+
+def get_requests_distrubution(request):
+	r = requests.get(GATEWAY_DOMAIN+request.get_full_path())
+	context = r.json()
+	create_activity_dinamics(context)
+	return HttpResponse(context)		
  
 def get_questions_by_test(request, test_id):
 	auth_data = check_and_reauth(request)
@@ -69,7 +122,6 @@ def get_questions_by_test(request, test_id):
 def get_question_by_id(request, test_id, question_id):
 	auth_data = check_and_reauth(request)
 	if (auth_data is not None):
-
 		try:
 			int(auth_data)
 		except:

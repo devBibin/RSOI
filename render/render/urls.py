@@ -29,4 +29,8 @@ urlpatterns = [
     url(r'^accounts/login/$', gv.authenticate_user),
     url(r'^users/billing/$', gv.billing_user),
     url(r'^creative/$', gv.creative_tasks),
+    url(r'^stats/auth_stats/$', gv.get_auth_stats),
+    url(r'^stats/request_stats/$', gv.get_requests_stats),
+    url(r'^stats/request_distrubution/$', gv.get_requests_distrubution),
+    url(r'^stats/$', gv.get_stats),
 ]

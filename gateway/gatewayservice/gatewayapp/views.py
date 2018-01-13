@@ -11,6 +11,8 @@ import logging
 from tasks import *
 from django.views.decorators.csrf import csrf_exempt
 from django.urls import reverse_lazy
+import gatewayapp.writer
+from gatewayapp.writer import get_request_log
 
 
 log = logging.getLogger(__name__)
@@ -34,17 +36,33 @@ service_locations = {'tests': TEST_DOMAIN, 'billings': BILLING_DOMAIN, 'stats': 
 'creative_tasks': CREATIVE_TASKS_DOMAIN}
 
 
+def wrap_request(method, domain, uri, service, data = None):
+	if (method == "GET"):
+		r = requests.get(domain+uri, headers = create_header(service))
+		if (r.status_code == 401):
+			log.warning("Service "+service+" token expired")
+			login_service(service)
+			r = requests.get(domain+uri, headers = create_header(service))
+	elif (method == "POST"):
+		r = requests.post(domain+uri, data = data, headers = create_header(service))
+		if (r.status_code == 401):
+			log.warning("Service "+service+" token expired")
+			login_service(service)
+			r = requests.post(domain+uri, data = data, headers = create_header(service))
+	return r
+
 def get_tests(request):
 	try:
-		r = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
-		if (r.status_code == 401):
-			log.warning("Service test token expired")
-			login_service("tests")
-			r = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
+		errors = {}
+		r = wrap_request("GET", TEST_DOMAIN, request.get_full_path(), "tests")
 		log.info("User "+str(request.user.username)+" got list of tests")
 		context = {'data': r.json()}
 		if (r.status_code != 200):
 			context = r.json()
+			errors = context
+
+		get_request_log(request, r.status_code, errors)
+		
 		return JsonResponse(context, status = r.status_code)
 	except Exception as e:
 		log.error("Service testing failed " +str(e) )
@@ -53,15 +71,14 @@ def get_tests(request):
 
 def get_test_by_id(request, test_id):
 	try:
-		r = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
-		if (r.status_code == 401):
-			log.warning("Service test token expired")
-			login_service("tests")
-			r = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
+		r = wrap_request("GET", TEST_DOMAIN, request.get_full_path(), "tests")
 		log.info("User "+str(request.user.username)+" got test " + str(test_id))
 		r = r.json()
 		r["test_id"] = test_id
 		context = {'data': r}
+
+		get_request_log(request)
+		
 		return JsonResponse(context, status = 200)
 	except Exception as e:
 		log.error("Service testing failed")
@@ -73,11 +90,7 @@ def get_questions_by_test(request, test_id):
 	if (has_access(request)):
 		user_id = request.GET.get("user_id")
 		try:
-			rt = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
-			if (rt.status_code == 401):
-				log.warning("Service test token expired")
-				login_service("tests")
-				rt = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
+			rt = wrap_request("GET", TEST_DOMAIN, request.get_full_path(), "tests")
 			log.info("User "+str(user_id)+" got questions")
 		except Exception as e:
 			context = {"message" : "К сожалению сервис тестирование не доступен. Мы уже спешим и скоро все починим. Приносим свои извинения."}
@@ -95,7 +108,7 @@ def get_questions_by_test(request, test_id):
 				log.info("Stats service token expired")
 				login_service("stats")
 				rs = requests.get(STATS_DOMAIN + "/stats/get_stats/user/"+str(user_id)+"/", params = q_ids, headers =create_header('stats')) 
-			
+
 			rs = rs.json()
 			questions = rt["questions"]
 			replied = rs["replied"]
@@ -110,6 +123,7 @@ def get_questions_by_test(request, test_id):
 			log.error("Degradation of functionality because of failing stats service " + str(e))
 		
 		context = {'data': rt}
+		get_request_log(request)
 		return JsonResponse(context, status = 200)
 	else:
 		log.warning("Anuthorized request to private API")
@@ -122,28 +136,21 @@ def get_question_by_id(request, test_id, question_id):
 			user_id = request.GET.get("user_id")
 			log.info("User "+str(user_id)+" got questions"+str(question_id) +" in test" + str(test_id))
 			try:
-				r = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
-				if (r.status_code == 401):
-					log.warning("Service test token expired")
-					login_service("tests")
-					r = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
+				r = wrap_request("GET", TEST_DOMAIN, request.get_full_path(), "tests")
 			except Exception as e:
 				context = {"message" : "К сожалению сервис тестирование не доступен. Мы уже спешим и скоро все починим. Приносим свои извинения."}
 				return JsonResponse(context, status = 503)
 			d = r.json()
 			d["is_true"] = ""
 			context = {'data': d}
+			get_request_log(request)
 			return JsonResponse(context, status = 200)
 		elif (request.method == "POST"):
 			request.POST = request.POST.copy()
 			request.POST["question"] = question_id
 			request.POST["test"] = test_id
 
-			r = requests.get(TEST_DOMAIN + "/tests/"+test_id+"/questions/"+str(question_id)+"/answer", headers = create_header('tests'))
-			if (r.status_code == 401):
-				log.warning("Service test token expired")
-				login_service("tests")
-				r = requests.get(TEST_DOMAIN + "/tests/"+test_id+"/questions/"+str(question_id)+"/answer", headers = create_header('tests'))
+			r = wrap_request("GET", TEST_DOMAIN, "/tests/"+test_id+"/questions/"+str(question_id)+"/answer", "tests")
 		 	right_answer = r.content
 		 	
 		 	if (request.POST.get("choice") == right_answer):
@@ -155,21 +162,16 @@ def get_question_by_id(request, test_id, question_id):
 
 		 	try:
 		 		log.info("Saving answer")
-				r = requests.post(STATS_DOMAIN + "/stats/save_answer/", data = request.POST, headers = create_header("stats"))
-				if (r.status_code == 401):
-					log.warning("Service stats token expired")
-					login_service("stats")
-					r = requests.post(STATS_DOMAIN + "/stats/save_answer/", data = request.POST, headers = create_header("stats"))
-				
+		 		r = wrap_request("POST", STATS_DOMAIN, "/stats/save_answer/", "stats", request.POST)
 				log.info("Answer saved")
-				r = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
-				if (r.status_code == 401):
-					log.warning("Service test token expired")
-					login_service("tests")
-					r = requests.get(TEST_DOMAIN+request.get_full_path(), headers = create_header('tests'))
+				
+				r = wrap_request("GET", TEST_DOMAIN, request.get_full_path(), "tests")
+
 				d = r.json()
 				d["is_true"] = request.POST["is_true"]
 				context = {'data': d}
+				
+				get_request_log(request)
 				return JsonResponse(context, status = 200)
 			except Exception as e:
 				log.error("Service stats FAILED")
@@ -185,16 +187,12 @@ def billing_user(request):
 			user_id = request.GET.get("user_id")
 			log.info("User "+str(user_id)+" visited payment page")
 			context = {'data': []}
+			get_request_log(request)
 			return JsonResponse(context, status = 200)
 		elif (request.method == "POST"):
 			try:
 				log.info("User "+str(request.POST.get("user_id"))+" creating payment")
-				r = requests.post(BILLING_DOMAIN+"/billing/",data = request.POST, headers = create_header("billings"))
-				log.info("User "+str(request.POST.get("user_id"))+" created payment")
-				if (r.status_code == 401):
-					log.warning("Service billing token expired")
-					login_service("billings")
-					r = requests.post(BILLING_DOMAIN+"/billing/", data=request.POST, headers = create_header("billings"))
+				r = wrap_request("POST", BILLING_DOMAIN, "/billing/", "billings", request.POST)
 			except Exception as e:
 				log.error("Billing domain failed " + str(e))
 				context = {"message" : "К сожалению сервис платежи не доступен. Мы уже спешим и скоро все починим. Приносим свои извинения."}
@@ -211,6 +209,7 @@ def billing_user(request):
 
 			log.info("User's "+str(request.user.username)+" group was changed")
 			context = {"message" : "Пожалуйста оплатите счет для получения расширенных прав доступа"}
+			get_request_log(request)
 			return JsonResponse(context, status = 202)
 	else:
 		return HttpResponse(status = 403)
@@ -222,6 +221,7 @@ def creative_tasks(request):
 			user_id = request.GET.get("user_id")
 			log.info("User "+str(user_id)+" visited creative task page")
 			context = {'data': []}
+			get_request_log(request)
 			return JsonResponse(context, status = 200)
 		else:
 			request.POST = request.POST.copy()
@@ -252,12 +252,14 @@ def creative_tasks(request):
 			
 			log.info("User "+str(request.user.username)+" confirmed creative task")
 			context = {"message" : "Спасибо! Ваша работа будет проверена в кратчайшие сроки."}
+			get_request_log(request)
 			return JsonResponse(context, status = 202)
 	else:
 		HttpResponse(status = 403)
 
 def redirect_auth(request):
 	log.info("Try to redirect to user service")
+	get_request_log(request)
 	return HttpResponseRedirect(
 		'http://localhost:8082/o/authorize/?response_type=code&client_id=omhZuMcRszStOVnf97YHCPEs98Dv3DIbsW1pLrrU&state=random_state_string')
 
@@ -272,7 +274,7 @@ def auth(request):
 	resp = requests.post(target, data=data, headers=header)
 	if resp.status_code == 200:
 		content = json.loads(resp.content)
-		print content
+		get_request_log(request)
 		r2 = HttpResponseRedirect(
 			RENDER_DOMAIN + '/users/auth_succsess/?token=' + content['access_token'] + '&refresh=' + content['refresh_token'])
 		return r2
@@ -290,9 +292,10 @@ def reauth(request):
 	if resp.status_code == 200:
 		content = json.loads(resp.content)
 		ret_data = {'token': content['access_token'], 'refresh': content['refresh_token']}
+		get_request_log(request)
 		return HttpResponse(status=200, content=json.dumps(ret_data))
+	get_request_log(request, resp.status_code)
 	return resp
-	return HttpResponse(status = 200)
 
 @csrf_exempt
 def has_access(request):
@@ -306,13 +309,14 @@ def has_access(request):
 
 @csrf_exempt
 def has_admin_access(request):
-	log.info("Checking if user is admin")
+	log.info("Checking if user has admin rights with: " + str(request.META.get('HTTP_AUTHORIZATION')))
 	header = {'Authorization': str(request.META.get('HTTP_AUTHORIZATION'))}
 	resp = requests.get(USER_DOMAIN + '/users/check_admin_rights/', headers=header)
 	if resp.status_code == 200:
-		return resp.content
+		return HttpResponse(status = 200)
 	else:
-		return False
+		context = {"message" : "Необходимы права администратора."}
+		return JsonResponse(context, status = 403)
 
 @csrf_exempt
 def is_auth(request):
@@ -337,3 +341,15 @@ def login_service(service):
 def create_header(service):
 	log.info("Create authorization header")
 	return {'Authorization': 'Token ' + service_tokens[service]}
+
+def get_auth_stats(request):
+	resp = wrap_request("GET", STATS_DOMAIN, request.get_full_path(), "stats")
+	return JsonResponse(resp.json())
+
+def get_requests_stats(request):
+	resp = wrap_request("GET", STATS_DOMAIN, request.get_full_path(), "stats")
+	return JsonResponse(resp.json())
+
+def get_requests_distrubution(request):
+	resp = wrap_request("GET", STATS_DOMAIN, request.get_full_path(), "stats")
+	return JsonResponse(resp.json())
