@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 import consumer as c
 import threading
 from django.http import HttpResponse
+from copy import deepcopy
 
 rabbitConnection = None
 rabbit_channel = None
@@ -62,8 +63,8 @@ def send_message(message):
                                      immediate=False)
 
 def resend_messages():
-    print "resending"
-    for k, v in unprocessed_messages.items():
+    copied_unprocessed_messages = deepcopy(unprocessed_messages)
+    for k, v in copied_unprocessed_messages.items():
         if attempts[k] < 5 and ttl[k] < datetime.now() - timedelta(seconds=5):
             print "message resended"
             attempts[k] = attempts[k] + 1
